@@ -1,0 +1,1085 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+names	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/angemeldete.php	/^		  	$names = fopen("angemeldete.csv","r");$/;"	variable	line:54
+zeile	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/angemeldete.php	/^		  		   $zeile = fgets($names,1024);$/;"	variable	line:63
+contentline	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/angemeldete.php	/^		  		    $contentline = utf8_encode($zeile); $/;"	variable	line:64
+securimage	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/anmeldung2.php	/^		$securimage = new Securimage();$/;"	variable	line:49
+dz	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/anmeldung2.php	/^			$dz = fopen("anmeldungen.csv","a");$/;"	variable	line:73
+names	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/anmeldung2.php	/^			$names = fopen("angemeldete.csv","a");$/;"	variable	line:119
+anrede	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/anmeldung2.php	/^				$anrede = "Sehr geehrte Frau";$/;"	variable	line:149
+anrede	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/anmeldung2.php	/^				$anrede = "Sehr geehrter Herr";$/;"	variable	line:153
+titel	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/anmeldung2.php	/^			$titel = $_POST["titel"];$/;"	variable	line:157
+empfaenger	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/anmeldung2.php	/^			$empfaenger = $_POST["vorname"]." ".$_POST["nachname"];$/;"	variable	line:159
+empfaengerMail	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/anmeldung2.php	/^			$empfaengerMail = $_POST["email"];$/;"	variable	line:161
+mail	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/anmeldung2.php	/^			$mail = new PHPMailer();$/;"	variable	line:163
+names	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/anmeldung2.php	/^	$names = fopen("anmeldungen.csv","r");$/;"	variable	line:258
+n	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/anmeldung2.php	/^	$n=0;$/;"	variable	line:264
+zeile	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/anmeldung2.php	/^	{	$zeile = fgets($names,1024);$/;"	variable	line:266
+mailAdmin	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/anmeldung2.php	/^			$mailAdmin = new PHPMailer();$/;"	variable	line:274
+PHPMailer	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^class PHPMailer {$/;"	class	line:43
+Priority	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Priority          = 3;$/;"	variable	line:53
+Priority	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Priority          = 3;$/;"	variable	line:53
+CharSet	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $CharSet           = 'iso-8859-1';$/;"	variable	line:59
+CharSet	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $CharSet           = 'iso-8859-1';$/;"	variable	line:59
+ContentType	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $ContentType       = 'text\/plain';$/;"	variable	line:65
+ContentType	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $ContentType       = 'text\/plain';$/;"	variable	line:65
+Encoding	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Encoding          = '8bit';$/;"	variable	line:72
+Encoding	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Encoding          = '8bit';$/;"	variable	line:72
+ErrorInfo	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $ErrorInfo         = '';$/;"	variable	line:78
+ErrorInfo	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $ErrorInfo         = '';$/;"	variable	line:78
+From	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $From              = 'root@localhost';$/;"	variable	line:84
+From	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $From              = 'root@localhost';$/;"	variable	line:84
+FromName	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $FromName          = 'Root User';$/;"	variable	line:90
+FromName	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $FromName          = 'Root User';$/;"	variable	line:90
+Sender	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Sender            = '';$/;"	variable	line:97
+Sender	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Sender            = '';$/;"	variable	line:97
+Subject	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Subject           = '';$/;"	variable	line:103
+Subject	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Subject           = '';$/;"	variable	line:103
+Body	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Body              = '';$/;"	variable	line:110
+Body	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Body              = '';$/;"	variable	line:110
+AltBody	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $AltBody           = '';$/;"	variable	line:119
+AltBody	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $AltBody           = '';$/;"	variable	line:119
+WordWrap	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $WordWrap          = 0;$/;"	variable	line:126
+WordWrap	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $WordWrap          = 0;$/;"	variable	line:126
+Mailer	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Mailer            = 'mail';$/;"	variable	line:132
+Mailer	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Mailer            = 'mail';$/;"	variable	line:132
+Sendmail	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Sendmail          = '\/usr\/sbin\/sendmail';$/;"	variable	line:138
+Sendmail	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Sendmail          = '\/usr\/sbin\/sendmail';$/;"	variable	line:138
+PluginDir	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $PluginDir         = '';$/;"	variable	line:145
+PluginDir	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $PluginDir         = '';$/;"	variable	line:145
+ConfirmReadingTo	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $ConfirmReadingTo  = '';$/;"	variable	line:151
+ConfirmReadingTo	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $ConfirmReadingTo  = '';$/;"	variable	line:151
+Hostname	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Hostname          = '';$/;"	variable	line:159
+Hostname	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Hostname          = '';$/;"	variable	line:159
+MessageID	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $MessageID         = '';$/;"	variable	line:166
+MessageID	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $MessageID         = '';$/;"	variable	line:166
+Host	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Host          = 'localhost';$/;"	variable	line:180
+Host	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Host          = 'localhost';$/;"	variable	line:180
+Port	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Port          = 25;$/;"	variable	line:186
+Port	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Port          = 25;$/;"	variable	line:186
+Helo	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Helo          = '';$/;"	variable	line:192
+Helo	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Helo          = '';$/;"	variable	line:192
+SMTPSecure	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $SMTPSecure    = '';$/;"	variable	line:199
+SMTPSecure	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $SMTPSecure    = '';$/;"	variable	line:199
+SMTPAuth	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $SMTPAuth      = false;$/;"	variable	line:205
+SMTPAuth	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $SMTPAuth      = false;$/;"	variable	line:205
+Username	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Username      = '';$/;"	variable	line:211
+Username	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Username      = '';$/;"	variable	line:211
+Password	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Password      = '';$/;"	variable	line:217
+Password	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Password      = '';$/;"	variable	line:217
+will	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^   * This function will not work with the win32 version.$/;"	function	line:221
+Timeout	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Timeout       = 10;$/;"	variable	line:224
+Timeout	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Timeout       = 10;$/;"	variable	line:224
+debugging	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^   * Sets SMTP class debugging on or off.$/;"	class	line:227
+SMTPDebug	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $SMTPDebug     = false;$/;"	variable	line:230
+SMTPDebug	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $SMTPDebug     = false;$/;"	variable	line:230
+SMTPKeepAlive	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $SMTPKeepAlive = false;$/;"	variable	line:238
+SMTPKeepAlive	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $SMTPKeepAlive = false;$/;"	variable	line:238
+SingleTo	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $SingleTo      = false;$/;"	variable	line:245
+SingleTo	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $SingleTo      = false;$/;"	variable	line:245
+SingleToArray	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $SingleToArray = array();$/;"	variable	line:251
+SingleToArray	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $SingleToArray = array();$/;"	variable	line:251
+LE	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $LE              = "\\n";$/;"	variable	line:257
+LE	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $LE              = "\\n";$/;"	variable	line:257
+DKIM_selector	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $DKIM_selector   = 'phpmailer';$/;"	variable	line:263
+DKIM_selector	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $DKIM_selector   = 'phpmailer';$/;"	variable	line:263
+DKIM_identity	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $DKIM_identity   = '';$/;"	variable	line:270
+DKIM_identity	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $DKIM_identity   = '';$/;"	variable	line:270
+DKIM_domain	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $DKIM_domain     = '';$/;"	variable	line:277
+DKIM_domain	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $DKIM_domain     = '';$/;"	variable	line:277
+DKIM_private	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $DKIM_private    = '';$/;"	variable	line:284
+DKIM_private	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $DKIM_private    = '';$/;"	variable	line:284
+name	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^   * Callback Action function name$/;"	function	line:287
+that	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^   * the function that handles the result of the send email action. Parameters:$/;"	function	line:288
+action_function	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $action_function = ''; \/\/'callbackAction';$/;"	variable	line:297
+action_function	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $action_function = ''; \/\/'callbackAction';$/;"	variable	line:297
+Version	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Version         = '5.1';$/;"	variable	line:303
+Version	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public $Version         = '5.1';$/;"	variable	line:303
+smtp	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $smtp           = NULL;$/;"	variable	line:309
+smtp	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $smtp           = NULL;$/;"	variable	line:309
+to	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $to             = array();$/;"	variable	line:310
+to	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $to             = array();$/;"	variable	line:310
+cc	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $cc             = array();$/;"	variable	line:311
+cc	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $cc             = array();$/;"	variable	line:311
+bcc	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $bcc            = array();$/;"	variable	line:312
+bcc	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $bcc            = array();$/;"	variable	line:312
+ReplyTo	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $ReplyTo        = array();$/;"	variable	line:313
+ReplyTo	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $ReplyTo        = array();$/;"	variable	line:313
+all_recipients	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $all_recipients = array();$/;"	variable	line:314
+all_recipients	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $all_recipients = array();$/;"	variable	line:314
+attachment	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $attachment     = array();$/;"	variable	line:315
+attachment	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $attachment     = array();$/;"	variable	line:315
+CustomHeader	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $CustomHeader   = array();$/;"	variable	line:316
+CustomHeader	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $CustomHeader   = array();$/;"	variable	line:316
+message_type	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $message_type   = '';$/;"	variable	line:317
+message_type	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $message_type   = '';$/;"	variable	line:317
+boundary	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $boundary       = array();$/;"	variable	line:318
+boundary	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $boundary       = array();$/;"	variable	line:318
+language	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  protected $language       = array();$/;"	variable	line:319
+language	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  protected $language       = array();$/;"	variable	line:319
+error_count	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $error_count    = 0;$/;"	variable	line:320
+error_count	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $error_count    = 0;$/;"	variable	line:320
+sign_cert_file	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $sign_cert_file = "";$/;"	variable	line:321
+sign_cert_file	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $sign_cert_file = "";$/;"	variable	line:321
+sign_key_file	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $sign_key_file  = "";$/;"	variable	line:322
+sign_key_file	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $sign_key_file  = "";$/;"	variable	line:322
+sign_key_pass	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $sign_key_pass  = "";$/;"	variable	line:323
+sign_key_pass	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $sign_key_pass  = "";$/;"	variable	line:323
+exceptions	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $exceptions     = false;$/;"	variable	line:324
+exceptions	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private   $exceptions     = false;$/;"	variable	line:324
+__construct	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function __construct($exceptions = false) {$/;"	function	line:342
+exceptions	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->exceptions = ($exceptions == true);$/;"	variable	line:343
+IsHTML	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function IsHTML($ishtml = true) {$/;"	function	line:351
+ContentType	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $this->ContentType = 'text\/html';$/;"	variable	line:353
+ContentType	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $this->ContentType = 'text\/plain';$/;"	variable	line:355
+IsSMTP	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function IsSMTP() {$/;"	function	line:363
+Mailer	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->Mailer = 'smtp';$/;"	variable	line:364
+IsMail	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function IsMail() {$/;"	function	line:371
+Mailer	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->Mailer = 'mail';$/;"	variable	line:372
+IsSendmail	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function IsSendmail() {$/;"	function	line:379
+Sendmail	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $this->Sendmail = '\/var\/qmail\/bin\/sendmail';$/;"	variable	line:381
+Mailer	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->Mailer = 'sendmail';$/;"	variable	line:383
+IsQmail	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function IsQmail() {$/;"	function	line:390
+Sendmail	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $this->Sendmail = '\/var\/qmail\/bin\/sendmail';$/;"	variable	line:392
+Mailer	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->Mailer = 'sendmail';$/;"	variable	line:394
+AddAddress	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function AddAddress($address, $name = '') {$/;"	function	line:407
+name	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function AddAddress($address, $name = '') {$/;"	variable	line:407
+works	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^   * Note: this function works with the SMTP mailer on win32, not with the "mail" mailer.$/;"	function	line:413
+AddCC	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function AddCC($address, $name = '') {$/;"	function	line:418
+name	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function AddCC($address, $name = '') {$/;"	variable	line:418
+works	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^   * Note: this function works with the SMTP mailer on win32, not with the "mail" mailer.$/;"	function	line:424
+AddBCC	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function AddBCC($address, $name = '') {$/;"	function	line:429
+name	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function AddBCC($address, $name = '') {$/;"	variable	line:429
+AddReplyTo	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function AddReplyTo($address, $name = '') {$/;"	function	line:439
+name	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function AddReplyTo($address, $name = '') {$/;"	variable	line:439
+AddAnAddress	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private function AddAnAddress($kind, $address, $name = '') {$/;"	function	line:452
+name	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private function AddAnAddress($kind, $address, $name = '') {$/;"	variable	line:452
+address	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $address = trim($address);$/;"	variable	line:457
+name	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $name = trim(preg_replace('\/[\\r\\n]+\/', '', $name)); \/\/Strip breaks and trim$/;"	variable	line:458
+SetFrom	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function SetFrom($address, $name = '',$auto=1) {$/;"	function	line:488
+name	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function SetFrom($address, $name = '',$auto=1) {$/;"	variable	line:488
+address	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $address = trim($address);$/;"	variable	line:489
+name	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $name = trim(preg_replace('\/[\\r\\n]+\/', '', $name)); \/\/Strip breaks and trim$/;"	variable	line:490
+From	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->From = $address;$/;"	variable	line:499
+FromName	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->FromName = $name;$/;"	variable	line:500
+Sender	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $this->Sender = $address;$/;"	variable	line:506
+ValidateAddress	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public static function ValidateAddress($address) {$/;"	function	line:523
+Send	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function Send() {$/;"	function	line:545
+ContentType	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $this->ContentType = 'multipart\/alternative';$/;"	variable	line:553
+error_count	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $this->error_count = 0; \/\/ reset errors$/;"	variable	line:556
+header	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $header = $this->CreateHeader();$/;"	variable	line:558
+body	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $body = $this->CreateBody();$/;"	variable	line:559
+header_dkim	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $header_dkim = $this->DKIM_Add($header,$this->Subject,$body);$/;"	variable	line:567
+header	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $header = str_replace("\\r\\n","\\n",$header_dkim) . $header;$/;"	variable	line:568
+SendmailSend	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  protected function SendmailSend($header, $body) {$/;"	function	line:598
+sendmail	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $sendmail = sprintf("%s -oi -f %s -t", escapeshellcmd($this->Sendmail), escapeshellarg($this->Sender));$/;"	variable	line:600
+sendmail	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $sendmail = sprintf("%s -oi -t", escapeshellcmd($this->Sendmail));$/;"	variable	line:602
+key	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      foreach ($this->SingleToArray as $key => $val) {$/;"	variable	line:605
+result	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $result = pclose($mail);$/;"	variable	line:612
+if	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        \/\/ implement call back function if it exists$/;"	function	line:613
+isSent	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $isSent = ($result == 0) ? 1 : 0;$/;"	variable	line:614
+result	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $result = pclose($mail);$/;"	variable	line:626
+if	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      \/\/ implement call back function if it exists$/;"	function	line:627
+isSent	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $isSent = ($result == 0) ? 1 : 0;$/;"	variable	line:628
+MailSend	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  protected function MailSend($header, $body) {$/;"	function	line:644
+toArr	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $toArr = array();$/;"	variable	line:645
+to	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $to = implode(', ', $toArr);$/;"	variable	line:649
+params	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $params = sprintf("-oi -f %s", $this->Sender);$/;"	variable	line:651
+old_from	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $old_from = ini_get('sendmail_from');$/;"	variable	line:653
+key	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        foreach ($toArr as $key => $val) {$/;"	variable	line:656
+rt	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $rt = @mail($val, $this->EncodeHeader($this->SecureHeader($this->Subject)), $body, $header, $params);$/;"	variable	line:657
+if	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          \/\/ implement call back function if it exists$/;"	function	line:658
+isSent	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $isSent = ($rt == 1) ? 1 : 0;$/;"	variable	line:659
+rt	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $rt = @mail($to, $this->EncodeHeader($this->SecureHeader($this->Subject)), $body, $header, $params);$/;"	variable	line:663
+if	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        \/\/ implement call back function if it exists$/;"	function	line:664
+isSent	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $isSent = ($rt == 1) ? 1 : 0;$/;"	variable	line:665
+key	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        foreach ($toArr as $key => $val) {$/;"	variable	line:670
+rt	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $rt = @mail($val, $this->EncodeHeader($this->SecureHeader($this->Subject)), $body, $header, $params);$/;"	variable	line:671
+if	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          \/\/ implement call back function if it exists$/;"	function	line:672
+isSent	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $isSent = ($rt == 1) ? 1 : 0;$/;"	variable	line:673
+rt	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $rt = @mail($to, $this->EncodeHeader($this->SecureHeader($this->Subject)), $body, $header);$/;"	variable	line:677
+if	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        \/\/ implement call back function if it exists$/;"	function	line:678
+isSent	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $isSent = ($rt == 1) ? 1 : 0;$/;"	variable	line:679
+SmtpSend	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  protected function SmtpSend($header, $body) {$/;"	function	line:701
+bad_rcpt	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $bad_rcpt = array();$/;"	variable	line:703
+smtp_from	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $smtp_from = ($this->Sender == '') ? $this->From : $this->Sender;$/;"	variable	line:708
+if	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        \/\/ implement call back function if it exists$/;"	function	line:717
+isSent	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $isSent = 0;$/;"	variable	line:718
+if	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        \/\/ implement call back function if it exists$/;"	function	line:721
+isSent	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $isSent = 1;$/;"	variable	line:722
+if	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        \/\/ implement call back function if it exists$/;"	function	line:729
+isSent	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $isSent = 0;$/;"	variable	line:730
+if	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        \/\/ implement call back function if it exists$/;"	function	line:733
+isSent	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $isSent = 1;$/;"	variable	line:734
+if	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        \/\/ implement call back function if it exists$/;"	function	line:741
+isSent	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $isSent = 0;$/;"	variable	line:742
+if	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        \/\/ implement call back function if it exists$/;"	function	line:745
+isSent	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $isSent = 1;$/;"	variable	line:746
+badaddresses	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $badaddresses = implode(', ', $bad_rcpt);$/;"	variable	line:753
+SmtpConnect	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function SmtpConnect() {$/;"	function	line:772
+smtp	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $this->smtp = new SMTP();$/;"	variable	line:774
+hosts	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $hosts = explode(';', $this->Host);$/;"	variable	line:778
+index	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $index = 0;$/;"	variable	line:779
+connection	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $connection = $this->smtp->Connected();$/;"	variable	line:780
+hostinfo	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $hostinfo = array();$/;"	variable	line:785
+host	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $host = $hostinfo[1];$/;"	variable	line:787
+port	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $port = $hostinfo[2];$/;"	variable	line:788
+host	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $host = $hosts[$index];$/;"	variable	line:790
+port	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $port = $this->Port;$/;"	variable	line:791
+tls	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $tls = ($this->SMTPSecure == 'tls');$/;"	variable	line:794
+ssl	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $ssl = ($this->SMTPSecure == 'ssl');$/;"	variable	line:795
+hello	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $hello = ($this->Helo != '' ? $this->Helo : $this->ServerHostname());$/;"	variable	line:799
+connection	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $connection = true;$/;"	variable	line:811
+SmtpClose	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function SmtpClose() {$/;"	function	line:834
+error	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  * Sets the language for all class error messages.$/;"	class	line:844
+SetLanguage	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  function SetLanguage($langcode = 'en', $lang_path = 'language\/') {$/;"	function	line:850
+lang_path	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  function SetLanguage($langcode = 'en', $lang_path = 'language\/') {$/;"	variable	line:850
+PHPMAILER_LANG	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $PHPMAILER_LANG = array($/;"	variable	line:852
+l	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $l = true;$/;"	variable	line:872
+l	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $l = @include $lang_path.'phpmailer.lang-'.$langcode.'.php';$/;"	variable	line:874
+language	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->language = $PHPMAILER_LANG;$/;"	variable	line:876
+GetTranslations	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function GetTranslations() {$/;"	function	line:884
+AddrAppend	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function AddrAppend($type, $addr) {$/;"	function	line:897
+addr_str	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $addr_str = $type . ': ';$/;"	variable	line:898
+addresses	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $addresses = array();$/;"	variable	line:899
+AddrFormat	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function AddrFormat($addr) {$/;"	function	line:914
+WrapText	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function WrapText($message, $length, $qp_mode = false) {$/;"	function	line:932
+qp_mode	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function WrapText($message, $length, $qp_mode = false) {$/;"	variable	line:932
+soft_break	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $soft_break = ($qp_mode) ? sprintf(" =%s", $this->LE) : $this->LE;$/;"	variable	line:933
+is_utf8	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $is_utf8 = (strtolower($this->CharSet) == "utf-8");$/;"	variable	line:936
+message	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $message = $this->FixEOL($message);$/;"	variable	line:938
+message	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $message = substr($message, 0, -1);$/;"	variable	line:940
+line	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $line = explode($this->LE, $message);$/;"	variable	line:943
+message	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $message = '';$/;"	variable	line:944
+line_part	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $line_part = explode(' ', $line[$i]);$/;"	variable	line:946
+buf	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $buf = '';$/;"	variable	line:947
+word	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $word = $line_part[$e];$/;"	variable	line:949
+space_left	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $space_left = $length - strlen($buf) - 1;$/;"	variable	line:951
+len	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^              $len = $space_left;$/;"	variable	line:954
+len	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^                $len = $this->UTF8CharBoundary($word, $len);$/;"	variable	line:956
+part	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^              $part = substr($word, 0, $len);$/;"	variable	line:962
+word	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^              $word = substr($word, $len);$/;"	variable	line:963
+buf	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^            $buf = '';$/;"	variable	line:969
+len	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^            $len = $length;$/;"	variable	line:972
+len	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^              $len = $this->UTF8CharBoundary($word, $len);$/;"	variable	line:974
+part	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^            $part = substr($word, 0, $len);$/;"	variable	line:980
+word	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^            $word = substr($word, $len);$/;"	variable	line:981
+buf	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^              $buf = $part;$/;"	variable	line:986
+buf_o	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $buf_o = $buf;$/;"	variable	line:990
+buf	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^            $buf = $word;$/;"	variable	line:995
+UTF8CharBoundary	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function UTF8CharBoundary($encodedText, $maxLength) {$/;"	function	line:1014
+foundSplitPos	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $foundSplitPos = false;$/;"	variable	line:1015
+lookBack	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $lookBack = 3;$/;"	variable	line:1016
+lastChunk	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $lastChunk = substr($encodedText, $maxLength - $lookBack, $lookBack);$/;"	variable	line:1018
+encodedCharPos	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $encodedCharPos = strpos($lastChunk, "=");$/;"	variable	line:1019
+hex	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $hex = substr($encodedText, $maxLength - $lookBack + $encodedCharPos + 1, 2);$/;"	variable	line:1023
+dec	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $dec = hexdec($hex);$/;"	variable	line:1024
+maxLength	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $maxLength = ($encodedCharPos == 0) ? $maxLength :$/;"	variable	line:1028
+foundSplitPos	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $foundSplitPos = true;$/;"	variable	line:1030
+maxLength	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $maxLength = $maxLength - ($lookBack - $encodedCharPos);$/;"	variable	line:1033
+foundSplitPos	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $foundSplitPos = true;$/;"	variable	line:1034
+foundSplitPos	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $foundSplitPos = true;$/;"	variable	line:1040
+SetWordWrap	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function SetWordWrap() {$/;"	function	line:1052
+AltBody	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $this->AltBody = $this->WrapText($this->AltBody, $this->WordWrap);$/;"	variable	line:1060
+Body	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $this->Body = $this->WrapText($this->Body, $this->WordWrap);$/;"	variable	line:1063
+CreateHeader	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function CreateHeader() {$/;"	function	line:1073
+result	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $result = '';$/;"	variable	line:1074
+uniq_id	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $uniq_id = md5(uniqid(time()));$/;"	variable	line:1077
+from	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $from = array();$/;"	variable	line:1103
+GetMailMIME	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function GetMailMIME() {$/;"	function	line:1156
+result	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $result = '';$/;"	variable	line:1157
+CreateBody	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function CreateBody() {$/;"	function	line:1190
+body	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $body = '';$/;"	variable	line:1191
+body	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $body = '';$/;"	variable	line:1233
+file	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $file = tempnam('', 'mail');$/;"	variable	line:1236
+signed	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $signed = tempnam("", "signed");$/;"	variable	line:1238
+body	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $body = file_get_contents($signed);$/;"	variable	line:1242
+body	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $body = '';$/;"	variable	line:1249
+GetBoundary	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private function GetBoundary($boundary, $charSet, $contentType, $encoding) {$/;"	function	line:1263
+result	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $result = '';$/;"	variable	line:1264
+charSet	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $charSet = $this->CharSet;$/;"	variable	line:1266
+contentType	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $contentType = $this->ContentType;$/;"	variable	line:1269
+encoding	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $encoding = $this->Encoding;$/;"	variable	line:1272
+EndBoundary	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private function EndBoundary($boundary) {$/;"	function	line:1287
+SetMessageType	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private function SetMessageType() {$/;"	function	line:1296
+message_type	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $this->message_type = 'plain';$/;"	variable	line:1298
+message_type	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $this->message_type = 'attachments';$/;"	variable	line:1301
+message_type	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $this->message_type = 'alt';$/;"	variable	line:1304
+message_type	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $this->message_type = 'alt_attachments';$/;"	variable	line:1307
+HeaderLine	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function HeaderLine($name, $value) {$/;"	function	line:1317
+TextLine	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function TextLine($value) {$/;"	function	line:1326
+AddAttachment	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function AddAttachment($path, $name = '', $encoding = 'base64', $type = 'application\/octet-stream') {$/;"	function	line:1344
+name	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function AddAttachment($path, $name = '', $encoding = 'base64', $type = 'application\/octet-stream') {$/;"	variable	line:1344
+filename	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $filename = basename($path);$/;"	variable	line:1349
+name	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      if ( $name == '' ) {$/;"	variable	line:1350
+name	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $name = $filename;$/;"	variable	line:1351
+GetAttachments	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function GetAttachments() {$/;"	function	line:1382
+AttachAll	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private function AttachAll() {$/;"	function	line:1392
+mime	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $mime = array();$/;"	variable	line:1394
+cidUniq	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $cidUniq = array();$/;"	variable	line:1395
+incl	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $incl = array();$/;"	variable	line:1396
+bString	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $bString = $attachment[5];$/;"	variable	line:1401
+string	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $string = $attachment[0];$/;"	variable	line:1403
+path	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $path = $attachment[0];$/;"	variable	line:1405
+filename	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $filename    = $attachment[1];$/;"	variable	line:1409
+name	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $name        = $attachment[2];$/;"	variable	line:1410
+encoding	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $encoding    = $attachment[3];$/;"	variable	line:1411
+type	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $type        = $attachment[4];$/;"	variable	line:1412
+disposition	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $disposition = $attachment[6];$/;"	variable	line:1413
+cid	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $cid         = $attachment[7];$/;"	variable	line:1414
+disposition	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      if ( $disposition == 'inline' && isset($cidUniq[$cid]) ) { continue; }$/;"	variable	line:1416
+EncodeFile	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private function EncodeFile($path, $encoding = 'base64') {$/;"	function	line:1459
+encoding	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private function EncodeFile($path, $encoding = 'base64') {$/;"	variable	line:1459
+get_magic_quotes	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        function get_magic_quotes() {$/;"	function	line:1465
+magic_quotes	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $magic_quotes = get_magic_quotes_runtime();$/;"	variable	line:1470
+file_buffer	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $file_buffer  = file_get_contents($path);$/;"	variable	line:1473
+file_buffer	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $file_buffer  = $this->EncodeString($file_buffer, $encoding);$/;"	variable	line:1474
+EncodeString	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function EncodeString ($str, $encoding = 'base64') {$/;"	function	line:1491
+encoding	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function EncodeString ($str, $encoding = 'base64') {$/;"	variable	line:1491
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $encoded = '';$/;"	variable	line:1492
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $encoded = chunk_split(base64_encode($str), 76, $this->LE);$/;"	variable	line:1495
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $encoded = $this->FixEOL($str);$/;"	variable	line:1499
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $encoded = $str;$/;"	variable	line:1505
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $encoded = $this->EncodeQP($str);$/;"	variable	line:1508
+EncodeHeader	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function EncodeHeader($str, $position = 'text') {$/;"	function	line:1522
+position	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function EncodeHeader($str, $position = 'text') {$/;"	variable	line:1522
+x	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $x = 0;$/;"	variable	line:1523
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $encoded = addcslashes($str, "\\0..\\37\\177\\\\\\"");$/;"	variable	line:1529
+x	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $x = preg_match_all('\/[^\\040\\041\\043-\\133\\135-\\176]\/', $str, $matches);$/;"	variable	line:1536
+x	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $x = preg_match_all('\/[()"]\/', $str, $matches);$/;"	variable	line:1539
+maxlen	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $maxlen = 75 - 7 - strlen($this->CharSet);$/;"	variable	line:1551
+encoding	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $encoding = 'B';$/;"	variable	line:1554
+which	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        \/\/ Use a custom function which correctly encodes and wraps long$/;"	function	line:1556
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $encoded = $this->Base64EncodeWrapMB($str);$/;"	variable	line:1558
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $encoded = base64_encode($str);$/;"	variable	line:1560
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $encoded = trim(chunk_split($encoded, $maxlen, "\\n"));$/;"	variable	line:1562
+encoding	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $encoding = 'Q';$/;"	variable	line:1565
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $encoded = $this->EncodeQ($str, $position);$/;"	variable	line:1566
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $encoded = $this->WrapText($encoded, $maxlen, true);$/;"	variable	line:1567
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $encoded = str_replace('='.$this->LE, "\\n", trim($encoded));$/;"	variable	line:1568
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $encoded = preg_replace('\/^(.*)$\/m', " =?".$this->CharSet."?$encoding?\\\\1?=", $encoded);$/;"	variable	line:1571
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $encoded = trim(str_replace("\\n", $this->LE, $encoded));$/;"	variable	line:1572
+HasMultiBytes	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function HasMultiBytes($str) {$/;"	function	line:1583
+by	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^   * Adapted from a function by paravoid at http:\/\/uk.php.net\/manual\/en\/function.mb-encode-mimeheader.php$/;"	function	line:1594
+Base64EncodeWrapMB	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function Base64EncodeWrapMB($str) {$/;"	function	line:1599
+start	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $start = "=?".$this->CharSet."?B?";$/;"	variable	line:1600
+end	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $end = "?=";$/;"	variable	line:1601
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $encoded = "";$/;"	variable	line:1602
+mb_length	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $mb_length = mb_strlen($str, $this->CharSet);$/;"	variable	line:1604
+length	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $length = 75 - strlen($start) - strlen($end);$/;"	variable	line:1606
+ratio	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $ratio = $mb_length \/ strlen($str);$/;"	variable	line:1608
+offset	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $offset = $avgLength = floor($length * $ratio * .75);$/;"	variable	line:1610
+lookBack	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $lookBack = 0;$/;"	variable	line:1613
+offset	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $offset = $avgLength - $lookBack;$/;"	variable	line:1616
+chunk	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $chunk = mb_substr($str, $i, $offset, $this->CharSet);$/;"	variable	line:1617
+chunk	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $chunk = base64_encode($chunk);$/;"	variable	line:1618
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $encoded = substr($encoded, 0, -strlen($this->LE));$/;"	variable	line:1627
+EncodeQPphp	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function EncodeQPphp( $input = '', $line_max = 76, $space_conv = false) {$/;"	function	line:1639
+input	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function EncodeQPphp( $input = '', $line_max = 76, $space_conv = false) {$/;"	variable	line:1639
+hex	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $hex = array('0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F');$/;"	variable	line:1640
+lines	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $lines = preg_split('\/(?:\\r\\n|\\r|\\n)\/', $input);$/;"	variable	line:1641
+eol	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $eol = "\\r\\n";$/;"	variable	line:1642
+escape	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $escape = '=';$/;"	variable	line:1643
+output	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $output = '';$/;"	variable	line:1644
+linlen	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $linlen = strlen($line);$/;"	variable	line:1646
+newline	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $newline = '';$/;"	variable	line:1647
+c	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $c = substr( $line, $i, 1 );$/;"	variable	line:1649
+dec	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $dec = ord( $c );$/;"	variable	line:1650
+i	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        if ( ( $i == 0 ) && ( $dec == 46 ) ) { \/\/ convert first point in the line into =2E$/;"	variable	line:1651
+c	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $c = '=2E';$/;"	variable	line:1652
+dec	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        if ( $dec == 32 ) {$/;"	variable	line:1654
+i	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          if ( $i == ( $linlen - 1 ) ) { \/\/ convert space at eol only$/;"	variable	line:1655
+c	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^            $c = '=20';$/;"	variable	line:1656
+c	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^            $c = '=20';$/;"	variable	line:1658
+h2	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $h2 = floor($dec\/16);$/;"	variable	line:1661
+h1	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $h1 = floor($dec%16);$/;"	variable	line:1662
+c	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $c = $escape.$hex[$h2].$hex[$h1];$/;"	variable	line:1663
+newline	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $newline = '';$/;"	variable	line:1667
+dec	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          if ( $dec == 46 ) {$/;"	variable	line:1669
+c	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^            $c = '=2E';$/;"	variable	line:1670
+EncodeQP	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function EncodeQP($string, $line_max = 76, $space_conv = false) {$/;"	function	line:1692
+line_max	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function EncodeQP($string, $line_max = 76, $space_conv = false) {$/;"	variable	line:1692
+if	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    if (function_exists('quoted_printable_encode')) { \/\/Use native function if it's available (>= PHP5.3)$/;"	function	line:1693
+filters	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $filters = stream_get_filters();$/;"	variable	line:1696
+fp	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $fp = fopen('php:\/\/temp\/', 'r+');$/;"	variable	line:1700
+string	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $string = preg_replace('\/\\r\\n?\/', $this->LE, $string); \/\/Normalise line breaks$/;"	variable	line:1701
+params	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $params = array('line-length' => $line_max, 'line-break-chars' => $this->LE);$/;"	variable	line:1702
+s	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $s = stream_filter_append($fp, 'convert.quoted-printable-encode', STREAM_FILTER_READ, $params);$/;"	variable	line:1703
+out	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $out = stream_get_contents($fp);$/;"	variable	line:1706
+out	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $out = preg_replace('\/^\\.\/m', '=2E', $out); \/\/Encode . if it is first char on a line, workaround for bug in Exchange$/;"	variable	line:1708
+EncodeQ	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function EncodeQ ($str, $position = 'text') {$/;"	function	line:1721
+position	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function EncodeQ ($str, $position = 'text') {$/;"	variable	line:1721
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $encoded = preg_replace('\/[\\r\\n]*\/', '', $str);$/;"	variable	line:1723
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $encoded = preg_replace("\/([^A-Za-z0-9!*+\\\/ -])\/e", "'='.sprintf('%02X', ord('\\\\1'))", $encoded);$/;"	variable	line:1727
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $encoded = preg_replace("\/([\\(\\)\\"])\/e", "'='.sprintf('%02X', ord('\\\\1'))", $encoded);$/;"	variable	line:1730
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $encoded = preg_replace('\/([\\000-\\011\\013\\014\\016-\\037\\075\\077\\137\\177-\\377])\/e',$/;"	variable	line:1735
+encoded	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $encoded = str_replace(' ', '_', $encoded);$/;"	variable	line:1741
+AddStringAttachment	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function AddStringAttachment($string, $filename, $encoding = 'base64', $type = 'application\/octet-stream') {$/;"	function	line:1756
+encoding	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function AddStringAttachment($string, $filename, $encoding = 'base64', $type = 'application\/octet-stream') {$/;"	variable	line:1756
+AddEmbeddedImage	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function AddEmbeddedImage($path, $cid, $name = '', $encoding = 'base64', $type = 'application\/octet-stream') {$/;"	function	line:1783
+name	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function AddEmbeddedImage($path, $cid, $name = '', $encoding = 'base64', $type = 'application\/octet-stream') {$/;"	variable	line:1783
+filename	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $filename = basename($path);$/;"	variable	line:1790
+name	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    if ( $name == '' ) {$/;"	variable	line:1791
+name	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $name = $filename;$/;"	variable	line:1792
+InlineImageExists	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function InlineImageExists() {$/;"	function	line:1815
+ClearAddresses	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function ClearAddresses() {$/;"	function	line:1832
+to	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->to = array();$/;"	variable	line:1836
+ClearCCs	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function ClearCCs() {$/;"	function	line:1843
+cc	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->cc = array();$/;"	variable	line:1847
+ClearBCCs	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function ClearBCCs() {$/;"	function	line:1854
+bcc	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->bcc = array();$/;"	variable	line:1858
+ClearReplyTos	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function ClearReplyTos() {$/;"	function	line:1865
+ReplyTo	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->ReplyTo = array();$/;"	variable	line:1866
+ClearAllRecipients	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function ClearAllRecipients() {$/;"	function	line:1874
+to	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->to = array();$/;"	variable	line:1875
+cc	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->cc = array();$/;"	variable	line:1876
+bcc	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->bcc = array();$/;"	variable	line:1877
+all_recipients	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->all_recipients = array();$/;"	variable	line:1878
+ClearAttachments	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function ClearAttachments() {$/;"	function	line:1886
+attachment	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->attachment = array();$/;"	variable	line:1887
+ClearCustomHeaders	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function ClearCustomHeaders() {$/;"	function	line:1894
+CustomHeader	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->CustomHeader = array();$/;"	variable	line:1895
+SetError	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  protected function SetError($msg) {$/;"	function	line:1907
+lasterror	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $lasterror = $this->smtp->getError();$/;"	variable	line:1910
+ErrorInfo	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->ErrorInfo = $msg;$/;"	variable	line:1915
+RFCDate	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public static function RFCDate() {$/;"	function	line:1924
+tz	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $tz = date('Z');$/;"	variable	line:1925
+tzs	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $tzs = ($tz < 0) ? '-' : '+';$/;"	variable	line:1926
+tz	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $tz = abs($tz);$/;"	variable	line:1927
+tz	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $tz = (int)($tz\/3600)*100 + ($tz%3600)\/60;$/;"	variable	line:1928
+result	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $result = sprintf("%s %s%04d", date('D, j M Y H:i:s'), $tzs, $tz);$/;"	variable	line:1929
+ServerHostname	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private function ServerHostname() {$/;"	function	line:1939
+result	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $result = $this->Hostname;$/;"	variable	line:1941
+result	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $result = $_SERVER['SERVER_NAME'];$/;"	variable	line:1943
+result	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $result = 'localhost.localdomain';$/;"	variable	line:1945
+Lang	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private function Lang($key) {$/;"	function	line:1956
+IsError	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function IsError() {$/;"	function	line:1973
+FixEOL	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  private function FixEOL($str) {$/;"	function	line:1982
+str	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $str = str_replace("\\r\\n", "\\n", $str);$/;"	variable	line:1983
+str	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $str = str_replace("\\r", "\\n", $str);$/;"	variable	line:1984
+str	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $str = str_replace("\\n", $this->LE, $str);$/;"	variable	line:1985
+AddCustomHeader	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function AddCustomHeader($custom_header) {$/;"	function	line:1994
+MsgHTML	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function MsgHTML($message, $basedir = '') {$/;"	function	line:2003
+basedir	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function MsgHTML($message, $basedir = '') {$/;"	variable	line:2003
+i	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      foreach($images[2] as $i => $url) {$/;"	variable	line:2006
+filename	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $filename = basename($url);$/;"	variable	line:2009
+directory	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $directory = dirname($url);$/;"	variable	line:2010
+cid	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $cid = 'cid:' . md5($filename);$/;"	variable	line:2012
+ext	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $ext = pathinfo($filename, PATHINFO_EXTENSION);$/;"	variable	line:2013
+mimeType	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^          $mimeType  = self::_mime_types($ext);$/;"	variable	line:2014
+message	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^            $message = preg_replace("\/".$images[1][$i]."=\\"".preg_quote($url, '\/')."\\"\/Ui", $images[1][$i]."=\\"".$cid."\\"", $message);$/;"	variable	line:2018
+Body	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->Body = $message;$/;"	variable	line:2024
+textMsg	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $textMsg = trim(strip_tags(preg_replace('\/<(head|title|style|script)[^>]*>.*?<\\\/\\\\1>\/s','',$message)));$/;"	variable	line:2025
+AltBody	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $this->AltBody = html_entity_decode($textMsg);$/;"	variable	line:2027
+AltBody	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $this->AltBody = 'To view this email message, open it in a program that understands HTML!' . "\\n\\n";$/;"	variable	line:2030
+_mime_types	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public static function _mime_types($ext = '') {$/;"	function	line:2041
+mimes	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $mimes = array($/;"	variable	line:2042
+set	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function set($name, $value = '') {$/;"	function	line:2146
+value	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function set($name, $value = '') {$/;"	variable	line:2146
+SecureHeader	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function SecureHeader($str) {$/;"	function	line:2168
+str	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $str = str_replace("\\r", '', $str);$/;"	variable	line:2169
+str	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $str = str_replace("\\n", '', $str);$/;"	variable	line:2170
+Sign	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function Sign($cert_filename, $key_filename, $key_pass) {$/;"	function	line:2181
+sign_cert_file	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->sign_cert_file = $cert_filename;$/;"	variable	line:2182
+sign_key_file	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->sign_key_file = $key_filename;$/;"	variable	line:2183
+sign_key_pass	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $this->sign_key_pass = $key_pass;$/;"	variable	line:2184
+DKIM_QP	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function DKIM_QP($txt) {$/;"	function	line:2194
+tmp	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $tmp="";$/;"	variable	line:2195
+line	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $line="";$/;"	variable	line:2196
+ord	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $ord=ord($txt[$i]);$/;"	variable	line:2198
+ord	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      if ( ((0x21 <= $ord) && ($ord <= 0x3A)) || $ord == 0x3C || ((0x3E <= $ord) && ($ord <= 0x7E)) ) {$/;"	variable	line:2199
+DKIM_Sign	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function DKIM_Sign($s) {$/;"	function	line:2214
+privKeyStr	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $privKeyStr = file_get_contents($this->DKIM_private);$/;"	variable	line:2215
+privKey	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $privKey = openssl_pkey_get_private($privKeyStr,$this->DKIM_passphrase);$/;"	variable	line:2217
+privKey	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $privKey = $privKeyStr;$/;"	variable	line:2219
+DKIM_HeaderC	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function DKIM_HeaderC($s) {$/;"	function	line:2232
+s	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $s=preg_replace("\/\\r\\n\\s+\/"," ",$s);$/;"	variable	line:2233
+lines	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $lines=explode("\\r\\n",$s);$/;"	variable	line:2234
+key	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    foreach ($lines as $key=>$line) {$/;"	variable	line:2235
+heading	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $heading=strtolower($heading);$/;"	variable	line:2237
+value	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $value=preg_replace("\/\\s+\/"," ",$value) ; \/\/ Compress useless spaces$/;"	variable	line:2238
+s	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $s=implode("\\r\\n",$lines);$/;"	variable	line:2241
+DKIM_BodyC	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function DKIM_BodyC($body) {$/;"	function	line:2251
+body	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $body=str_replace("\\r\\n","\\n",$body);$/;"	variable	line:2254
+body	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $body=str_replace("\\n","\\r\\n",$body);$/;"	variable	line:2255
+body	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $body=substr($body,0,strlen($body)-2);$/;"	variable	line:2258
+DKIM_Add	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function DKIM_Add($headers_line,$subject,$body) {$/;"	function	line:2271
+DKIMsignatureType	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $DKIMsignatureType    = 'rsa-sha1'; \/\/ Signature & hash algorithms$/;"	variable	line:2272
+DKIMcanonicalization	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $DKIMcanonicalization = 'relaxed\/simple'; \/\/ Canonicalization of header\/body$/;"	variable	line:2273
+DKIMquery	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $DKIMquery            = 'dns\/txt'; \/\/ Query method$/;"	variable	line:2274
+DKIMtime	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $DKIMtime             = time() ; \/\/ Signature Timestamp = seconds since 00:00:00 - Jan 1, 1970 (UTC time zone)$/;"	variable	line:2275
+subject_header	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $subject_header       = "Subject: $subject";$/;"	variable	line:2276
+headers	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $headers              = explode("\\r\\n",$headers_line);$/;"	variable	line:2277
+from_header	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $from_header=$header;$/;"	variable	line:2280
+to_header	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^        $to_header=$header;$/;"	variable	line:2282
+from	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $from     = str_replace('|','=7C',$this->DKIM_QP($from_header));$/;"	variable	line:2285
+to	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $to       = str_replace('|','=7C',$this->DKIM_QP($to_header));$/;"	variable	line:2286
+subject	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $subject  = str_replace('|','=7C',$this->DKIM_QP($subject_header)) ; \/\/ Copied header fields (dkim-quoted-printable$/;"	variable	line:2287
+body	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $body     = $this->DKIM_BodyC($body);$/;"	variable	line:2288
+DKIMlen	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $DKIMlen  = strlen($body) ; \/\/ Length of body$/;"	variable	line:2289
+DKIMb64	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $DKIMb64  = base64_encode(pack("H*", sha1($body))) ; \/\/ Base64 of packed binary SHA-1 hash of body$/;"	variable	line:2290
+ident	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $ident    = ($this->DKIM_identity == '')? '' : " i=" . $this->DKIM_identity . ";";$/;"	variable	line:2291
+dkimhdrs	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $dkimhdrs = "DKIM-Signature: v=1; a=" . $DKIMsignatureType . "; q=" . $DKIMquery . "; l=" . $DKIMlen . "; s=" . $this->DKIM_selector . ";\\r\\n".$/;"	variable	line:2292
+toSign	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $toSign   = $this->DKIM_HeaderC($from_header . "\\r\\n" . $to_header . "\\r\\n" . $subject_header . "\\r\\n" . $dkimhdrs);$/;"	variable	line:2301
+signed	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $signed   = $this->DKIM_Sign($toSign);$/;"	variable	line:2302
+doCallback	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  protected function doCallback($isSent,$to,$cc,$bcc,$subject,$body) {$/;"	function	line:2306
+params	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^      $params = array($isSent,$to,$cc,$bcc,$subject,$body);$/;"	variable	line:2308
+phpmailerException	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^class phpmailerException extends Exception {$/;"	class	line:2314
+errorMessage	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^  public function errorMessage() {$/;"	function	line:2315
+errorMsg	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/class.phpmailer.php	/^    $errorMsg = '<strong>' . $this->getMessage() . "<\/strong><br \/>\\n";$/;"	variable	line:2316
+restriction, including without limitation the rights to use	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^   restriction, including without limitation the rights to use,$/;"	function	line:12
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,$/;"	function	line:21
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^   HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,$/;"	function	line:25
+.uniForm	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^.uniForm{}$/;"	function	line:32
+.uniForm legend	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^    .uniForm legend{ font-weight: bold; font-size: 100%; margin: 0; padding: 1.5em 0; }$/;"	function	line:34
+.uniForm .ctrlHolder	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^    .uniForm .ctrlHolder{ padding: 1em; border-bottom: 1px solid #efefef; }$/;"	function	line:36
+.uniForm .ctrlHolder.focused	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^    .uniForm .ctrlHolder.focused{ background: #fffcdf; }$/;"	function	line:37
+.uniForm .inlineLabels .noLabel	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^    .uniForm .inlineLabels .noLabel{}$/;"	function	line:39
+.uniForm .buttonHolder	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^    .uniForm .buttonHolder{ background: #efefef; text-align: right; margin: 1.5em 0 0 0; padding: 1.5em;$/;"	function	line:41
+.uniForm .buttonHolder .primaryAction	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^      .uniForm .buttonHolder .primaryAction{ padding: 10px 22px; line-height: 1; background: #254a86; border: 1px solid #163362; font-size: 12px; font-weight: bold; color: #fff;$/;"	function	line:49
+.uniForm .buttonHolder .primaryAction:active	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^      .uniForm .buttonHolder .primaryAction:active{ position: relative; top: 1px; }$/;"	function	line:65
+.uniForm .secondaryAction	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^      .uniForm .secondaryAction            { text-align: left; }$/;"	function	line:66
+.uniForm button.secondaryAction	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^      .uniForm button.secondaryAction      { background: transparent; border: none; color: #777; margin: 1.25em 0 0 0; padding: 0; }$/;"	function	line:67
+.uniForm .inlineLabels label em	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^        .uniForm .inlineLabels label em,$/;"	function	line:69
+.uniForm .inlineLabels .label em	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^        .uniForm .inlineLabels .label em{ font-style: normal; font-weight: bold; }$/;"	function	line:70
+.uniForm label small	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^        .uniForm label small{ font-size: .75em; color: #777; }$/;"	function	line:71
+.uniForm .textInput	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^      .uniForm .textInput,$/;"	function	line:73
+.uniForm textarea	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^      .uniForm textarea    { padding: 4px 2px; border: 1px solid #aaa; background: #fff; }$/;"	function	line:74
+.uniForm textarea	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^      .uniForm textarea    { height: 12em; }$/;"	function	line:75
+.uniForm select	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^      .uniForm select      {}$/;"	function	line:76
+.uniForm .fileUpload	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^      .uniForm .fileUpload {}$/;"	function	line:77
+.uniForm ul	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^      .uniForm ul{}$/;"	function	line:79
+.uniForm li	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^        .uniForm li{}$/;"	function	line:80
+.uniForm ul li label	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^          .uniForm ul li label{ font-size: .85em; }$/;"	function	line:81
+.uniForm .small	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^            .uniForm .small {}$/;"	function	line:83
+.uniForm .medium	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^            .uniForm .medium{}$/;"	function	line:84
+.uniForm .large	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^            .uniForm .large {} \/* Large is default and should match the value you set for .textInput, textarea or select *\/$/;"	function	line:85
+.uniForm .auto	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^            .uniForm .auto  {}$/;"	function	line:86
+.uniForm .small	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^            .uniForm .small,$/;"	function	line:87
+.uniForm .medium	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^            .uniForm .medium,$/;"	function	line:88
+.uniForm .auto	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^            .uniForm .auto{}$/;"	function	line:89
+.uniForm .ctrlHolder .textInput:focus	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^      .uniForm .ctrlHolder .textInput:focus,$/;"	function	line:92
+.uniForm .ctrlHolder textarea:focus	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^      .uniForm .ctrlHolder textarea:focus{ outline: none; }$/;"	function	line:93
+.uniForm .formHint	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^      .uniForm .formHint                    { font-size: .85em; color: #777; }$/;"	function	line:95
+.uniForm .inlineLabels .formHint	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^      .uniForm .inlineLabels .formHint      { padding-top: .5em; }$/;"	function	line:96
+.uniForm .ctrlHolder.focused .formHint	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^      .uniForm .ctrlHolder.focused .formHint{ color: #333; }$/;"	function	line:97
+.uniForm #errorMsg	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^  .uniForm #errorMsg{ background: #ffdfdf; border: 1px solid #f3afb5; margin: 0 0 1.5em 0; padding: 0 1.5em;$/;"	function	line:104
+.uniForm #errorMsg h3	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^    .uniForm #errorMsg h3{} \/* Feel free to use a heading level suitable to your page structure *\/$/;"	function	line:112
+.uniForm #errorMsg ol	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^    .uniForm #errorMsg ol{ margin: 0 0 1.5em 0; padding: 0; }$/;"	function	line:113
+.uniForm #errorMsg ol li	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^      .uniForm #errorMsg ol li{ margin: 0 0 3px 1.5em; padding: 7px; background: #f6bec1; position: relative; font-size: .85em;$/;"	function	line:114
+.uniForm .ctrlHolder.error	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^  .uniForm .ctrlHolder.error,$/;"	function	line:123
+.uniForm .ctrlHolder.focused.error	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^  .uniForm .ctrlHolder.focused.error{ background: #ffdfdf; border: 1px solid #f3afb5;$/;"	function	line:124
+.uniForm .ctrlHolder.error input.error	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^    .uniForm .ctrlHolder.error input.error,$/;"	function	line:132
+.uniForm .ctrlHolder.error select.error	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^    .uniForm .ctrlHolder.error select.error,$/;"	function	line:133
+.uniForm .ctrlHolder.error textarea.error	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^    .uniForm .ctrlHolder.error textarea.error{ color: #af4c4c; margin: 0 0 6px 0; padding: 4px; }$/;"	function	line:134
+.uniForm #okMsg	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^  .uniForm #okMsg{ background: #c8ffbf; border: 1px solid #a2ef95; margin: 0 0 1.5em 0; padding: 1.5em; text-align: center;$/;"	function	line:137
+.uniForm #okMsg p	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^    .uniForm #okMsg p{ margin: 0; }$/;"	function	line:145
+.uniForm .col	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^    .uniForm .col{}$/;"	function	line:151
+.uniForm .col.first	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^    .uniForm .col.first{}$/;"	function	line:152
+.uniForm .col.last	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^    .uniForm .col.last{}$/;"	function	line:153
+.uniForm .col	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^    .uniForm .col{ margin-bottom: 1.5em; }$/;"	function	line:154
+.uniForm .col.first	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^    .uniForm .col.first{ width: 49%; float: left; clear: none;                   }$/;"	function	line:156
+.uniForm .col.last	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/default.uni-form.css	/^    .uniForm .col.last { width: 49%; float: right; clear: none; margin-right: 0; }/;"	function	line:157
+html	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^html{ color: #343434; background: #bcc2c6; font-size: 14px; line-height: 1.5; font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, Verdana, sans-serif; }$/;"	function	line:1
+body	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^body{}$/;"	function	line:2
+a:link	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^a:link,$/;"	function	line:4
+a:visited	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^a:visited{ text-decoration: none; color: #254a86; }$/;"	function	line:5
+a:hover	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^a:hover,$/;"	function	line:6
+a:focus	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^a:focus  { text-decoration: underline; }$/;"	function	line:7
+a img	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^a img { border: none; }$/;"	function	line:9
+h1,h2,h3,ul,ol,p	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^h1,h2,h3,ul,ol,p{ margin: 1em 0; }$/;"	function	line:11
+.uniForm legend	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^.uniForm legend {$/;"	function	line:13
+h2	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^h2{ font-size: 1.25em; }$/;"	function	line:17
+.uniForm h2	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^.uniForm h2{ margin: 1em 0 1em 1.15em; }$/;"	function	line:18
+fieldset h3	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^fieldset h3{ margin: 1.5em -28px; padding: 14px 28px; line-height: 1; background: #efefef; color: #343434; }$/;"	function	line:19
+.uniForm	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^.uniForm{ width: 55%; background: #fff; margin: 28px auto; padding: 28px; min-width: 650px;$/;"	function	line:21
+.header	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^  .header{ margin: -28px -28px 28px -28px; padding: 1px 28px; background: #efefef; border-bottom: 1px solid #dfdfdf; position: relative;$/;"	function	line:29
+.header h2	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^    .header h2{ margin: 1.5em 0 0 0; color: #343434; color: #777; }$/;"	function	line:38
+.header p	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^    .header p { margin-top: 0; font-size: 12px; color: #777; }$/;"	function	line:39
+.header .cta	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^      .header .cta{ position: absolute; bottom: 26px; right: 28px; text-align: right; font-weight: bold; background: #194789; padding: 7px 14px;$/;"	function	line:40
+.header .cta:link	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^      .header .cta:link,$/;"	function	line:49
+.header .cta:visited	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^      .header .cta:visited{ color: #fff; }$/;"	function	line:50
+.header .cta:focus	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^      .header .cta:focus,$/;"	function	line:51
+.header .cta:hover	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^      .header .cta:hover{ text-decoration: none;$/;"	function	line:52
+.header .cta:active	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^      .header .cta:active{ bottom: 25px; }$/;"	function	line:58
+.browse	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^.browse{ margin: 0; position: fixed; top: 28px; right: 28px; width: 84px; padding: 28px 28px 14px 28px; font-size: 12px; background: #97a2b0;$/;"	function	line:60
+.browse h2	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^  .browse h2{ font-size: 12px; margin: 0 0 14px 0; }$/;"	function	line:68
+.browse ul	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^  .browse ul{ margin: 0; padding: 0; }$/;"	function	line:69
+.browse li	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^    .browse li{ margin: 0 0 14px 0; padding: 0; list-style: none; }$/;"	function	line:70
+.download	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^    .download{ float: right; position: relative; top: 2px; }$/;"	function	line:71
+.intro	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^.intro { width: 55%; margin: 28px auto; text-align: center; font-size: 1.15em; }$/;"	function	line:72
+#footer	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^#footer{ width: 55%; margin: 28px auto; text-align: center; font-size: .75em; color: #777; }$/;"	function	line:73
+* html form.uniForm	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^* html form.uniForm{ overflow: hidden; }$/;"	function	line:76
+* html .header	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^	* html .header{ zoom: 1; overflow: hidden;}$/;"	function	line:77
+* html .browse	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^* html .browse{ position: absolute; }$/;"	function	line:78
+div.valid	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^div.valid{$/;"	function	line:81
+header#branding	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^header#branding {$/;"	function	line:89
+header#branding h1	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^header#branding h1 {$/;"	function	line:106
+header#branding hgroup h1 a:link, header#branding hgroup h2 a:link, header#branding hgroup h1 a:visited, header#branding hgroup h2 a:visited	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^header#branding hgroup h1 a:link, header#branding hgroup h2 a:link, header#branding hgroup h1 a:visited, header#branding hgroup h2 a:visited {$/;"	function	line:110
+header#branding h2	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^header#branding h2 {$/;"	function	line:114
+section#maincontent section, section#maincontent > header	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^section#maincontent section, section#maincontent > header {$/;"	function	line:120
+section#maincontent section header	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^section#maincontent section header {$/;"	function	line:129
+section#maincontent > header	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^section#maincontent > header {$/;"	function	line:133
+.uniForm fieldset	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^.uniForm fieldset {$/;"	function	line:138
+section#maincontent footer	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^section#maincontent footer {$/;"	function	line:142
+div.header	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^div.header {$/;"	function	line:146
+nav	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^nav {$/;"	function	line:150
+nav ul li	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^nav ul li {$/;"	function	line:156
+nav ul li a, nav ul li a:link, nav ul li a:visited	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^nav ul li a, nav ul li a:link, nav ul li a:visited {$/;"	function	line:164
+nav ul li:hover	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^nav ul li:hover {$/;"	function	line:169
+.uniForm .hide	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^.uniForm .hide {$/;"	function	line:174
+section#infos p, .vcard	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^section#infos p, .vcard {$/;"	function	line:178
+.vcard	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^.vcard {$/;"	function	line:182
+#captcha	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^#captcha {$/;"	function	line:186
+hgroup, header, footer, section	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^hgroup, header, footer, section {$/;"	function	line:190
+.disclaimer	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/style.css	/^.disclaimer{ background: #dbe7f1; padding: 28px; margin: -28px -28px 28px -28px; font-size: 12px; text-align: center; border-bottom: 1px solid #c4d2db; }$/;"	function	line:194
+restriction, including without limitation the rights to use	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^   restriction, including without limitation the rights to use,$/;"	function	line:8
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,$/;"	function	line:17
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^   HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,$/;"	function	line:21
+.uniForm	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^.uniForm{ margin: 0; padding: 0; position: relative; z-index: 1; } \/* reset stuff *\/$/;"	function	line:30
+.uniForm fieldset	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^  .uniForm fieldset{ border: none; margin: 0; padding: 0; }$/;"	function	line:33
+.uniForm fieldset legend	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^    .uniForm fieldset legend{ margin: 0; padding: 0; }$/;"	function	line:34
+.uniForm .ctrlHolder	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^    .uniForm .ctrlHolder,$/;"	function	line:37
+.uniForm .buttonHolder	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^    .uniForm .buttonHolder{ margin: 0; padding: 0; clear: both; }$/;"	function	line:38
+.uniForm:after	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^    .uniForm:after,$/;"	function	line:41
+.uniForm .buttonHolder:after	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .buttonHolder:after, $/;"	function	line:42
+.uniForm .ctrlHolder:after	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .ctrlHolder:after, $/;"	function	line:43
+.uniForm .ctrlHolder .multiField:after	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^        .uniForm .ctrlHolder .multiField:after,$/;"	function	line:44
+.uniForm .inlineLabel:after	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^          .uniForm .inlineLabel:after{ content: "."; display: block; height: 0; line-height: 0; font-size: 0; clear: both; min-height: 0; visibility: hidden; }$/;"	function	line:45
+.uniForm label	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm label,$/;"	function	line:47
+.uniForm button	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm button{ cursor: pointer; }$/;"	function	line:48
+.uniForm label	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm label,$/;"	function	line:56
+.uniForm .label	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .label{ display: block; float: none; margin: 0 0 .5em 0; padding: 0; line-height: 100%; width: auto; }$/;"	function	line:57
+.uniForm .textInput	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .textInput,$/;"	function	line:60
+.uniForm .fileUpload	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .fileUpload,$/;"	function	line:61
+.uniForm .selectInput	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .selectInput,$/;"	function	line:62
+.uniForm select	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm select,$/;"	function	line:63
+.uniForm textarea	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm textarea{ float: left; width: 53%; margin: 0; }$/;"	function	line:64
+.uniForm .readOnlyLabel	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .readOnlyLabel{ margin: 0; font-size: 1em; font-weight: bold; }$/;"	function	line:67
+.uniForm .readOnly	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .readOnly{ font-size: .85em; }$/;"	function	line:68
+.uniForm .readOnly .choiceLabel	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^        .uniForm .readOnly .choiceLabel{ color: #777; text-transform: uppercase; font-size: .75em; letter-spacing: .15em; }$/;"	function	line:69
+.uniForm .formHint	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .formHint{ float: right; width: 43%; margin: 0; clear: none; }$/;"	function	line:72
+.uniForm ul	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm ul{ float: left; width: 53%; margin: 0; padding: 0; }$/;"	function	line:75
+.uniForm ul li	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^        .uniForm ul li{ margin: 0 0 .5em 0; list-style: none; }$/;"	function	line:76
+.uniForm ul li label	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^          .uniForm ul li label{ margin: 0; float: none; display: block; overflow: visible; }$/;"	function	line:77
+.uniForm ul.alternate li	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^        .uniForm ul.alternate li{ float: left; width: 30%; margin-right: 3%; }$/;"	function	line:79
+.uniForm ul.alternate li label	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^          .uniForm ul.alternate li label{ float: none; display: block; width: 98%; }$/;"	function	line:80
+.uniForm ul .textInput	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^            .uniForm ul .textInput,$/;"	function	line:81
+.uniForm ul .selectInput	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^            .uniForm ul .selectInput,$/;"	function	line:82
+.uniForm ul select	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^            .uniForm ul select,$/;"	function	line:83
+.uniForm ul.alternate .textInput	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^            .uniForm ul.alternate .textInput,$/;"	function	line:84
+.uniForm ul.alternate .selectInput	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^            .uniForm ul.alternate .selectInput,$/;"	function	line:85
+.uniForm ul.alternate select	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^            .uniForm ul.alternate select{ width: 98%; margin-top: .5em; display: block; float: none; }$/;"	function	line:86
+.uniForm label em	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^        .uniForm label em,$/;"	function	line:89
+.uniForm .label em	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^        .uniForm .label em{ float: left; width: 1em; margin: 0 0 0 -1em; }$/;"	function	line:90
+.uniForm .inlineLabels label	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .inlineLabels label,$/;"	function	line:99
+.uniForm .inlineLabels .label	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .inlineLabels .label,$/;"	function	line:100
+.uniForm .inlineLabels .readOnlyLabel	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .inlineLabels .readOnlyLabel{ float: left; margin: .3em 2% 0 0; padding: 0; line-height: 1; position: relative; width: 32%; }$/;"	function	line:101
+.uniForm .inlineLabels .readOnlyLabel	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .inlineLabels .readOnlyLabel{ margin: 0; }$/;"	function	line:103
+.uniForm .inlineLabels .textInput	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .inlineLabels .textInput,$/;"	function	line:106
+.uniForm .inlineLabels .fileUpload	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .inlineLabels .fileUpload,$/;"	function	line:107
+.uniForm .inlineLabels .selectInput	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .inlineLabels .selectInput,$/;"	function	line:108
+.uniForm .inlineLabels select	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .inlineLabels select,$/;"	function	line:109
+.uniForm .inlineLabels textarea	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .inlineLabels textarea{ float: left; width: 64%; }$/;"	function	line:110
+.uniForm .inlineLabels .formHint	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^    .uniForm .inlineLabels .formHint{ clear: both; float: none; width: auto; margin-left: 34%; position: static; }$/;"	function	line:113
+.uniForm .inlineLabels ul	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^    .uniForm .inlineLabels ul{ float: left; width: 66%; }$/;"	function	line:116
+.uniForm .inlineLabels ul li	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .inlineLabels ul li{ margin: .5em 0; }$/;"	function	line:117
+.uniForm .inlineLabels ul li label	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^        .uniForm .inlineLabels ul li label{ float: none; display: block; width: 100%; }$/;"	function	line:118
+.uniForm .inlineLabels ul.alternate li	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .inlineLabels ul.alternate li{ margin-right: 3%; margin-top: .25em; }$/;"	function	line:120
+.uniForm .inlineLabels ul li label .textInput	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^          .uniForm .inlineLabels ul li label .textInput,$/;"	function	line:121
+.uniForm .inlineLabels ul li label textarea	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^          .uniForm .inlineLabels ul li label textarea,$/;"	function	line:122
+.uniForm .inlineLabels ul li label select	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^          .uniForm .inlineLabels ul li label select{ float: none; display: block; width: 98%;  }$/;"	function	line:123
+.uniForm .inlineLabels .readOnly	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^    .uniForm .inlineLabels .readOnly{ float: right; width: 66%; }$/;"	function	line:125
+.uniForm .inlineLabels label em	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^    .uniForm .inlineLabels label em,$/;"	function	line:128
+.uniForm .inlineLabels .label em	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^    .uniForm .inlineLabels .label em{ display: block; float: none; margin: 0; position: absolute; right: 0; }$/;"	function	line:129
+.uniForm legend	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^    .uniForm legend{ color: inherit; }$/;"	function	line:136
+.uniForm .secondaryAction	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .secondaryAction{ float: left; }$/;"	function	line:138
+.uniForm .inlineLabel input	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .inlineLabel input,$/;"	function	line:141
+.uniForm .inlineLabels .inlineLabel input	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .inlineLabels .inlineLabel input,$/;"	function	line:142
+.uniForm .blockLabels .inlineLabel input	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .blockLabels .inlineLabel input,$/;"	function	line:143
+.uniForm label input	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm label input{ float: none; display: inline; margin: 0; padding: 0; border: none; }$/;"	function	line:145
+.uniForm .buttonHolder .inlineLabel	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .buttonHolder .inlineLabel,$/;"	function	line:147
+.uniForm .buttonHolder label	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .buttonHolder label{ float: left; margin: .5em 0 0 0; width: auto; max-width: 60%; text-align: left; }$/;"	function	line:148
+.uniForm .inlineLabels .noLabel ul	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .inlineLabels .noLabel ul{ margin-left: 34%; \/* Match to width of label + gap to field *\/ }$/;"	function	line:151
+.uniForm .small	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .small { width: 30% !important; }$/;"	function	line:154
+.uniForm .medium	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .medium{ width: 45% !important; }$/;"	function	line:155
+.uniForm .large	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .large {  } \/* Large is default and should match the value you set for .textInput, textarea or select *\/$/;"	function	line:156
+.uniForm .auto	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .auto  { width: auto !important; height: auto !important; }$/;"	function	line:157
+.uniForm .small	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .small,$/;"	function	line:158
+.uniForm .medium	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .medium,$/;"	function	line:159
+.uniForm .auto	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^      .uniForm .auto{ margin-right: 4px; }$/;"	function	line:160
+.uniForm .col	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^.uniForm .col{ float: left; }$/;"	function	line:163
+.uniForm .col	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/css/uni-form.css	/^.uniForm .col{ width: 50%; }/;"	function	line:164
+uniform	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^jQuery.fn.uniform=function(extended_settings){var self=this;var settings=jQuery.extend(jQuery.fn.uniform.defaults,extended_settings);var i18n_strings=jQuery.fn.uniform.language;this.validators={get_val:function(name,classes,default_value){var value=default_value;classes=classes.split(' ');for(var i=0;i<classes.length;i++){if(classes[i]==name){if((classes[i+1]!='undefined')&&('val-'===classes[i+1].substr(0,4))){value=parseInt(classes[i+1].substr(4),10);return value;}}}$/;"	function	line:7
+jQuery.fn.uniform.validators.get_val	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^jQuery.fn.uniform=function(extended_settings){var self=this;var settings=jQuery.extend(jQuery.fn.uniform.defaults,extended_settings);var i18n_strings=jQuery.fn.uniform.language;this.validators={get_val:function(name,classes,default_value){var value=default_value;classes=classes.split(' ');for(var i=0;i<classes.length;i++){if(classes[i]==name){if((classes[i+1]!='undefined')&&('val-'===classes[i+1].substr(0,4))){value=parseInt(classes[i+1].substr(4),10);return value;}}}$/;"	method	line:7
+required	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return value;},required:function(field,caption){if(field.is(':radio')){var name=field.attr('name');if($("input[name="+name+"]:checked").length){return true;}$/;"	function	line:8
+validators.required	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return value;},required:function(field,caption){if(field.is(':radio')){var name=field.attr('name');if($("input[name="+name+"]:checked").length){return true;}$/;"	method	line:8
+validateMinLength	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return true;},validateMinLength:function(field,caption){var min_length=this.get_val('validateMinLength',field.attr('class'),0);if((min_length>0)&&(field.val().length<min_length)){return i18n('minlength',caption,min_length);}$/;"	function	line:13
+validators.validateMinLength	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return true;},validateMinLength:function(field,caption){var min_length=this.get_val('validateMinLength',field.attr('class'),0);if((min_length>0)&&(field.val().length<min_length)){return i18n('minlength',caption,min_length);}$/;"	method	line:13
+validateMin	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return true;},validateMin:function(field,caption){var min_val=this.get_val('validateMin',field.attr('class'),0);if((parseInt(field.val(),10)<min_val)){return i18n('min',caption,min_val);}$/;"	function	line:14
+validators.validateMin	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return true;},validateMin:function(field,caption){var min_val=this.get_val('validateMin',field.attr('class'),0);if((parseInt(field.val(),10)<min_val)){return i18n('min',caption,min_val);}$/;"	method	line:14
+validateMaxLength	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return true;},validateMaxLength:function(field,caption){var max_length=this.get_val('validateMaxLength',field.attr('class'),0);if((max_length>0)&&(field.val().length>max_length)){return i18n('maxlength',caption,max_length);}$/;"	function	line:15
+validators.validateMaxLength	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return true;},validateMaxLength:function(field,caption){var max_length=this.get_val('validateMaxLength',field.attr('class'),0);if((max_length>0)&&(field.val().length>max_length)){return i18n('maxlength',caption,max_length);}$/;"	method	line:15
+validateMax	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return true;},validateMax:function(field,caption){var max_val=this.get_val('validateMax',field.attr('class'),0);if((parseInt(field.val(),10)>max_val)){return i18n('max',caption,max_val);}$/;"	function	line:16
+validators.validateMax	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return true;},validateMax:function(field,caption){var max_val=this.get_val('validateMax',field.attr('class'),0);if((parseInt(field.val(),10)>max_val)){return i18n('max',caption,max_val);}$/;"	method	line:16
+validateSameAs	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return true;},validateSameAs:function(field,caption){var classes=field.attr('class').split(' ');var target_field_name='';for(var i=0;i<classes.length;i++){if(classes[i]=='validateSameAs'){if(classes[i+1]!='undefined'){target_field_name=classes[i+1];break;}}}$/;"	function	line:17
+validators.validateSameAs	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return true;},validateSameAs:function(field,caption){var classes=field.attr('class').split(' ');var target_field_name='';for(var i=0;i<classes.length;i++){if(classes[i]=='validateSameAs'){if(classes[i+1]!='undefined'){target_field_name=classes[i+1];break;}}}$/;"	method	line:17
+validateEmail	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return true;},validateEmail:function(field,caption){if(field.val().match(\/^([a-zA-Z0-9_\\.\\-])+\\@(([a-zA-Z0-9\\-])+\\.)+([a-zA-Z0-9]{2,4})+$\/)){return true;}else{return i18n('email',caption);}},validateUrl:function(field,caption){if(field.val().match(\/^(http|https|ftp):\\\/\\\/(([A-Z0-9][A-Z0-9_-]*)(\\.[A-Z0-9][A-Z0-9_-]*)+)(:(\\d+))?\\\/?\/i)){return true;}$/;"	function	line:19
+validators.validateEmail	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return true;},validateEmail:function(field,caption){if(field.val().match(\/^([a-zA-Z0-9_\\.\\-])+\\@(([a-zA-Z0-9\\-])+\\.)+([a-zA-Z0-9]{2,4})+$\/)){return true;}else{return i18n('email',caption);}},validateUrl:function(field,caption){if(field.val().match(\/^(http|https|ftp):\\\/\\\/(([A-Z0-9][A-Z0-9_-]*)(\\.[A-Z0-9][A-Z0-9_-]*)+)(:(\\d+))?\\\/?\/i)){return true;}$/;"	method	line:19
+validators.validateUrl	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return true;},validateEmail:function(field,caption){if(field.val().match(\/^([a-zA-Z0-9_\\.\\-])+\\@(([a-zA-Z0-9\\-])+\\.)+([a-zA-Z0-9]{2,4})+$\/)){return true;}else{return i18n('email',caption);}},validateUrl:function(field,caption){if(field.val().match(\/^(http|https|ftp):\\\/\\\/(([A-Z0-9][A-Z0-9_-]*)(\\.[A-Z0-9][A-Z0-9_-]*)+)(:(\\d+))?\\\/?\/i)){return true;}$/;"	method	line:19
+validateNumber	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return i18n('url',caption);},validateNumber:function(field,caption){if(field.val().match(\/(^-?\\d\\d*\\.\\d*$)|(^-?\\d\\d*$)|(^-?\\.\\d\\d*$)\/)||field.val()==''){return true;}$/;"	function	line:20
+validators.validateNumber	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return i18n('url',caption);},validateNumber:function(field,caption){if(field.val().match(\/(^-?\\d\\d*\\.\\d*$)|(^-?\\d\\d*$)|(^-?\\.\\d\\d*$)\/)||field.val()==''){return true;}$/;"	method	line:20
+validateInteger	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return i18n('number',caption);},validateInteger:function(field,caption){if(field.val().match(\/(^-?\\d\\d*$)\/)||field.val()==''){return true;}$/;"	function	line:21
+validators.validateInteger	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return i18n('number',caption);},validateInteger:function(field,caption){if(field.val().match(\/(^-?\\d\\d*$)\/)||field.val()==''){return true;}$/;"	method	line:21
+validateAlpha	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return i18n('integer',caption);},validateAlpha:function(field,caption){if(field.val().match(\/^[a-zA-Z]+$\/)){return true;}$/;"	function	line:22
+validators.validateAlpha	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return i18n('integer',caption);},validateAlpha:function(field,caption){if(field.val().match(\/^[a-zA-Z]+$\/)){return true;}$/;"	method	line:22
+validateAlphaNum	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return i18n('alpha',caption);},validateAlphaNum:function(field,caption){if(field.val().match(\/\\W\/)){return i18n('alphanum',caption);}$/;"	function	line:23
+validators.validateAlphaNum	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return i18n('alpha',caption);},validateAlphaNum:function(field,caption){if(field.val().match(\/\\W\/)){return i18n('alphanum',caption);}$/;"	method	line:23
+validatePhrase	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return true;},validatePhrase:function(field,caption){if((field.val()=='')||field.val().match(\/^[\\w\\d\\.\\-_\\(\\)\\*'# :,]+$\/i)){return true;}$/;"	function	line:24
+validators.validatePhrase	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return true;},validatePhrase:function(field,caption){if((field.val()=='')||field.val().match(\/^[\\w\\d\\.\\-_\\(\\)\\*'# :,]+$\/i)){return true;}$/;"	method	line:24
+validatePhone	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return i18n('phrase',caption);},validatePhone:function(field,caption){phoneNumber=\/^\\(?(\\d{3})\\)?[- ]?(\\d{3})[- ]?(\\d{4})$\/;if(phoneNumber.test(field.val())){return true;}$/;"	function	line:25
+validateDate	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return i18n('phone',caption);},validateDate:function(field,caption){if(field.val().match('(1[0-9]|[1-9])\/([1-3][0-9]|[1-9])\/((19|20)[0-9][0-9]|[0-9][0-9])')){return true;}$/;"	function	line:26
+validateCallback	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return i18n('date',caption);},validateCallback:function(field,caption){var classes=field.attr('class').split(' ');var callback_function='';for(var i=0;i<classes.length;i++){if(classes[i]=='validateCallback'){if(classes[i+1]!='undefined'){callback_function=classes[i+1];break;}}}$/;"	function	line:27
+i18n	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return i18n('callback',caption,callback_function);}};var i18n=function(lang_key){var lang_string=i18n_strings[lang_key];var bits=lang_string.split('%');var out=bits[0];var re=\/^([ds])(.*)$\/;for(var i=1;i<bits.length;i++){p=re.exec(bits[i]);if(!p||arguments[i]==null)continue;if(p[1]=='d'){out+=parseInt(arguments[i],10);}else if(p[1]=='s'){out+=arguments[i];}$/;"	function	line:29
+showFormError	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^return out;};var showFormError=function(form,title,messages){if($('#errorMsg').length){$('#errorMsg').remove();}$/;"	function	line:31
+showFormSuccess	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^form.prepend($message);$('html, body').animate({scrollTop:form.offset().top},500);$('#errorMsg').slideDown();return false;};var showFormSuccess=function(form,title,messages){if($('#okMsg').length){$('#okMsg').remove();}$/;"	function	line:33
+validate	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/js/uni-form-validation.jquery.min.js	/^$message=$('<div \/>').attr('id','okMsg').html("<h3>"+title+"<\/h3>");form.prepend($message);$('html, body').animate({scrollTop:form.offset().top},500);$('#okMsg').slideDown();return false;};return this.each(function(){var form=jQuery(this);var validate=function($input,valid,text){var $p=$input.closest('div.'+settings.holder_class).andSelf().toggleClass(settings.invalid_class,!valid).toggleClass(settings.error_class,!valid).toggleClass(settings.valid_class,valid).find('p.formHint');if(!valid&&!$p.data('info-text')){$p.data('info-text',$p.html());}$/;"	function	line:34
+for	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/example_form.php	/^ * Project:     Securimage: A PHP class for creating and managing form CAPTCHA images<br \/>$/;"	class	line:4
+img	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/example_form.php	/^  $img = new Securimage();$/;"	variable	line:58
+valid	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/example_form.php	/^  $valid = $img->check($_POST['code']);$/;"	variable	line:59
+for	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^ * Project:     Securimage: A PHP class for creating and managing form CAPTCHA images<br \/>$/;"	class	line:4
+for	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^ - Added Securimage_Color class for easier color definitions$/;"	class	line:55
+SI_IMAGE_JPEG	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^  define('SI_IMAGE_JPEG', 1);$/;"	define	line:90
+SI_IMAGE_PNG	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^  define('SI_IMAGE_PNG',  2);$/;"	define	line:95
+SI_IMAGE_GIF	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^  define('SI_IMAGE_GIF',  3);$/;"	define	line:101
+Securimage	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^class Securimage {$/;"	class	line:110
+basepath	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $basepath;$/;"	variable	line:117
+image_width	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $image_width;$/;"	variable	line:124
+image_height	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $image_height;$/;"	variable	line:131
+image_type	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $image_type;$/;"	variable	line:139
+code_length	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $code_length;$/;"	variable	line:146
+charset	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $charset;$/;"	variable	line:155
+wordlist_file	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $wordlist_file;$/;"	variable	line:162
+use_wordlist	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $use_wordlist = false;$/;"	variable	line:169
+use_wordlist	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $use_wordlist = false;$/;"	variable	line:169
+gd_font_file	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $gd_font_file;$/;"	variable	line:179
+gd_font_size	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $gd_font_size;$/;"	variable	line:188
+use_gd_font	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $use_gd_font;$/;"	variable	line:195
+ttf_file	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $ttf_file;$/;"	variable	line:204
+perturbation	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $perturbation;$/;"	variable	line:212
+text_angle_minimum	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $text_angle_minimum;$/;"	variable	line:222
+text_angle_maximum	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $text_angle_maximum;$/;"	variable	line:231
+text_x_start	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $text_x_start;$/;"	variable	line:240
+image_bg_color	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $image_bg_color;$/;"	variable	line:247
+background_directory	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^     * i.e. var $background_directory = $_SERVER['DOCUMENT_ROOT'] . '\/securimage\/backgrounds';$/;"	variable	line:253
+background_directory	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^     * i.e. var $background_directory = $_SERVER['DOCUMENT_ROOT'] . '\/securimage\/backgrounds';$/;"	variable	line:253
+background_directory	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $background_directory = null; \/\/'.\/backgrounds';$/;"	variable	line:258
+background_directory	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $background_directory = null; \/\/'.\/backgrounds';$/;"	variable	line:258
+text_color	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $text_color;$/;"	variable	line:268
+use_multi_text	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $use_multi_text;$/;"	variable	line:276
+multi_text_color	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $multi_text_color;$/;"	variable	line:283
+use_transparent_text	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $use_transparent_text;$/;"	variable	line:291
+text_transparency_percentage	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $text_transparency_percentage;$/;"	variable	line:300
+num_lines	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $num_lines;$/;"	variable	line:311
+line_color	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $line_color;$/;"	variable	line:318
+draw_lines_over_text	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $draw_lines_over_text;$/;"	variable	line:326
+image_signature	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $image_signature;$/;"	variable	line:334
+signature_color	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $signature_color;$/;"	variable	line:342
+audio_path	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $audio_path;$/;"	variable	line:351
+audio_format	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $audio_format;$/;"	variable	line:358
+session_name	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $session_name = '';$/;"	variable	line:367
+session_name	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $session_name = '';$/;"	variable	line:367
+expiry_time	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $expiry_time;$/;"	variable	line:376
+sqlite_database	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $sqlite_database;$/;"	variable	line:387
+use_sqlite_db	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $use_sqlite_db;$/;"	variable	line:393
+im	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $im;$/;"	variable	line:405
+tmpimg	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $tmpimg;$/;"	variable	line:413
+iscale	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $iscale; \/\/ internal scale factor for anti-alias @hkcaptcha$/;"	variable	line:422
+bgimg	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $bgimg;$/;"	variable	line:430
+code	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $code;$/;"	variable	line:438
+code_entered	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $code_entered;$/;"	variable	line:446
+correct_code	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $correct_code;$/;"	variable	line:454
+sqlite_handle	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $sqlite_handle;$/;"	variable	line:462
+gdlinecolor	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $gdlinecolor;$/;"	variable	line:470
+gdmulticolor	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $gdmulticolor;$/;"	variable	line:478
+gdtextcolor	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $gdtextcolor;$/;"	variable	line:486
+gdsignaturecolor	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $gdsignaturecolor;$/;"	variable	line:494
+gdbgcolor	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $gdbgcolor;$/;"	variable	line:502
+uses	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^     * Because the class uses sessions, this will attempt to start a session if there is no previous one.<br \/>$/;"	class	line:507
+securimage	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^     *   $securimage = new Securimage();$/;"	variable	line:512
+Securimage	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function Securimage()$/;"	function	line:516
+basepath	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->basepath = dirname(__FILE__);$/;"	variable	line:527
+image_width	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->image_width   = 230;$/;"	variable	line:530
+image_height	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->image_height  = 80;$/;"	variable	line:531
+image_type	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->image_type    = SI_IMAGE_PNG;$/;"	variable	line:532
+code_length	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->code_length   = 6;$/;"	variable	line:534
+charset	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->charset       = 'ABCDEFGHKLMNPRSTUVWYZabcdefghklmnprstuvwyz23456789';$/;"	variable	line:535
+wordlist_file	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->wordlist_file = $this->basepath . '\/words\/words.txt';$/;"	variable	line:536
+use_wordlist	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->use_wordlist  = false;$/;"	variable	line:537
+gd_font_file	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->gd_font_file  = 'gdfonts\/automatic.gdf';$/;"	variable	line:539
+use_gd_font	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->use_gd_font   = false;$/;"	variable	line:540
+gd_font_size	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->gd_font_size  = 24;$/;"	variable	line:541
+text_x_start	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->text_x_start  = 15;$/;"	variable	line:542
+ttf_file	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->ttf_file      = $this->basepath . '\/AHGBold.ttf';$/;"	variable	line:544
+perturbation	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->perturbation       = 0.75;$/;"	variable	line:546
+iscale	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->iscale             = 5;$/;"	variable	line:547
+text_angle_minimum	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->text_angle_minimum = 0;$/;"	variable	line:548
+text_angle_maximum	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->text_angle_maximum = 0;$/;"	variable	line:549
+image_bg_color	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->image_bg_color   = new Securimage_Color(0xff, 0xff, 0xff);$/;"	variable	line:551
+text_color	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->text_color       = new Securimage_Color(0x3d, 0x3d, 0x3d);$/;"	variable	line:552
+multi_text_color	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->multi_text_color = array(new Securimage_Color(0x0, 0x20, 0xCC),$/;"	variable	line:553
+use_multi_text	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->use_multi_text   = false;$/;"	variable	line:558
+use_transparent_text	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->use_transparent_text         = false;$/;"	variable	line:560
+text_transparency_percentage	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->text_transparency_percentage = 30;$/;"	variable	line:561
+num_lines	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->num_lines            = 10;$/;"	variable	line:563
+line_color	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->line_color           = new Securimage_Color(0x3d, 0x3d, 0x3d);$/;"	variable	line:564
+draw_lines_over_text	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->draw_lines_over_text = true;$/;"	variable	line:565
+image_signature	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->image_signature = '';$/;"	variable	line:567
+signature_color	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->signature_color = new Securimage_Color(0x20, 0x50, 0xCC);$/;"	variable	line:568
+signature_font	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->signature_font  = $this->basepath . '\/AHGBold.ttf';$/;"	variable	line:569
+audio_path	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->audio_path   = $this->basepath . '\/audio\/';$/;"	variable	line:571
+audio_format	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->audio_format = 'mp3';$/;"	variable	line:572
+session_name	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->session_name = '';$/;"	variable	line:573
+expiry_time	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->expiry_time  = 900;$/;"	variable	line:574
+sqlite_database	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->sqlite_database = 'database\/securimage.sqlite';$/;"	variable	line:576
+use_sqlite_db	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->use_sqlite_db   = false;$/;"	variable	line:577
+sqlite_handle	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->sqlite_handle = false;$/;"	variable	line:579
+securimage	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^     *   $securimage = new Securimage();$/;"	variable	line:588
+show	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function show($background_image = "")$/;"	function	line:595
+bgimg	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $this->bgimg = $background_image;$/;"	variable	line:598
+code	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^     *   $code = $_POST['code'];$/;"	variable	line:608
+valid	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^     *     $valid = true;$/;"	variable	line:612
+check	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function check($code)$/;"	function	line:618
+code_entered	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->code_entered = $code;$/;"	variable	line:620
+sound	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^     *   $sound = new Securimage();$/;"	variable	line:629
+outputAudioFile	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function outputAudioFile()$/;"	function	line:636
+ext	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $ext = 'wav';$/;"	variable	line:640
+ext	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $ext = 'mp3';$/;"	variable	line:643
+audio	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $audio = $this->getAudibleCode($ext);$/;"	variable	line:651
+doImage	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function doImage()$/;"	function	line:665
+iscale	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $this->iscale = 1;$/;"	variable	line:668
+im	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $this->im     = imagecreatetruecolor($this->image_width, $this->image_height);$/;"	variable	line:671
+tmpimg	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $this->tmpimg = imagecreatetruecolor($this->image_width * $this->iscale, $this->image_height * $this->iscale);$/;"	variable	line:672
+im	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $this->im     = imagecreate($this->image_width, $this->image_height);$/;"	variable	line:675
+tmpimg	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $this->tmpimg = imagecreate($this->image_width * $this->iscale, $this->image_height * $this->iscale);$/;"	variable	line:676
+allocateColors	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function allocateColors()$/;"	function	line:705
+gdbgcolor	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->gdbgcolor = imagecolorallocate($this->im, $this->image_bg_color->r, $this->image_bg_color->g, $this->image_bg_color->b);$/;"	variable	line:708
+alpha	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $alpha = intval($this->text_transparency_percentage \/ 100 * 127);$/;"	variable	line:710
+gdtextcolor	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $this->gdtextcolor = imagecolorallocatealpha($this->im, $this->text_color->r, $this->text_color->g, $this->text_color->b, $alpha);$/;"	variable	line:713
+gdlinecolor	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $this->gdlinecolor = imagecolorallocatealpha($this->im, $this->line_color->r, $this->line_color->g, $this->line_color->b, $alpha);$/;"	variable	line:714
+gdtextcolor	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $this->gdtextcolor = imagecolorallocate($this->im, $this->text_color->r, $this->text_color->g, $this->text_color->b);$/;"	variable	line:716
+gdlinecolor	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $this->gdlinecolor = imagecolorallocate($this->im, $this->line_color->r, $this->line_color->g, $this->line_color->b);$/;"	variable	line:717
+gdsignaturecolor	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->gdsignaturecolor = imagecolorallocate($this->im, $this->signature_color->r, $this->signature_color->g, $this->signature_color->b);$/;"	variable	line:720
+gdmulticolor	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $this->gdmulticolor = array();$/;"	variable	line:723
+setBackground	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function setBackground()$/;"	function	line:741
+img	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                $img = $this->getBackgroundFromDirectory();$/;"	variable	line:748
+bgimg	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                    $this->bgimg = $img;$/;"	variable	line:750
+dat	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $dat = @getimagesize($this->bgimg);$/;"	variable	line:755
+newim	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            case 1:  $newim = @imagecreatefromgif($this->bgimg); break;$/;"	variable	line:761
+newim	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            case 2:  $newim = @imagecreatefromjpeg($this->bgimg); break;$/;"	variable	line:762
+newim	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            case 3:  $newim = @imagecreatefrompng($this->bgimg); break;$/;"	variable	line:763
+newim	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            case 15: $newim = @imagecreatefromwbmp($this->bgimg); break;$/;"	variable	line:764
+newim	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            case 16: $newim = @imagecreatefromxbm($this->bgimg); break;$/;"	variable	line:765
+getBackgroundFromDirectory	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function getBackgroundFromDirectory()$/;"	function	line:781
+images	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $images = array();$/;"	variable	line:783
+drawLines	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function drawLines()$/;"	function	line:808
+x	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $x = $this->image_width * (1 + $line) \/ ($this->num_lines + 1);$/;"	variable	line:811
+y	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $y = rand($this->image_height * 0.1, $this->image_height * 0.9);$/;"	variable	line:813
+theta	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $theta = ($this->frand()-0.5) * M_PI * 0.7;$/;"	variable	line:815
+w	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $w = $this->image_width;$/;"	variable	line:816
+len	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $len = rand($w * 0.4, $w * 0.7);$/;"	variable	line:817
+lwid	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $lwid = rand(0, 2);$/;"	variable	line:818
+k	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $k = $this->frand() * 0.6 + 0.2;$/;"	variable	line:820
+k	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $k = $k * $k * 0.5;$/;"	variable	line:821
+phi	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $phi = $this->frand() * 6.28;$/;"	variable	line:822
+step	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $step = 0.5;$/;"	variable	line:823
+dx	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $dx = $step * cos($theta);$/;"	variable	line:824
+dy	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $dy = $step * sin($theta);$/;"	variable	line:825
+n	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $n = $len \/ $step;$/;"	variable	line:826
+amp	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $amp = 1.5 * $this->frand() \/ ($k + 5.0 \/ $len);$/;"	variable	line:827
+x0	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $x0 = $x - 0.5 * $len * cos($theta);$/;"	variable	line:828
+y0	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $y0 = $y - 0.5 * $len * sin($theta);$/;"	variable	line:829
+ldx	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $ldx = round(-$dy * $lwid);$/;"	variable	line:831
+ldy	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $ldy = round($dx * $lwid);$/;"	variable	line:832
+x	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                $x = $x0 + $i * $dx + $amp * $dy * sin($k * $i * $step + $phi);$/;"	variable	line:835
+y	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                $y = $y0 + $i * $dy - $amp * $dx * sin($k * $i * $step + $phi);$/;"	variable	line:836
+drawWord	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function drawWord()$/;"	function	line:848
+width2	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $width2 = $this->image_width * $this->iscale;$/;"	variable	line:850
+height2	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $height2 = $this->image_height * $this->iscale;$/;"	variable	line:851
+font	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                $font = @imageloadfont($this->gd_font_file);$/;"	variable	line:855
+font	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                $font = $this->gd_font_file;$/;"	variable	line:861
+font_size	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $font_size = $height2 * .35;$/;"	variable	line:866
+bb	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $bb = imagettfbbox($font_size, 0, $this->ttf_file, $this->code);$/;"	variable	line:867
+tx	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $tx = $bb[4] - $bb[0];$/;"	variable	line:868
+ty	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $ty = $bb[5] - $bb[1];$/;"	variable	line:869
+x	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $x  = floor($width2 \/ 2 - $tx \/ 2 - $bb[0]);$/;"	variable	line:870
+y	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $y  = round($height2 \/ 2 - $ty \/ 2 - $bb[1]);$/;"	variable	line:871
+strlen	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $strlen = strlen($this->code);$/;"	variable	line:873
+use_multi_text	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            if (!is_array($this->multi_text_color)) $this->use_multi_text = false;$/;"	variable	line:874
+text_angle_minimum	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            if ($this->use_multi_text == false && $this->text_angle_minimum == 0 && $this->text_angle_maximum == 0) { \/\/ no angled or multi-color characters$/;"	variable	line:877
+angle	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                    $angle = rand($this->text_angle_minimum, $this->text_angle_maximum);$/;"	variable	line:881
+y	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                    $y = rand($y - 5, $y + 5);$/;"	variable	line:882
+font_color	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                        $font_color = $this->gdmulticolor[rand(0, sizeof($this->gdmulticolor) - 1)];$/;"	variable	line:884
+font_color	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                        $font_color = $this->gdtextcolor;$/;"	variable	line:886
+ch	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                    $ch = $this->code{$i};$/;"	variable	line:889
+min_x	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                        $min_x = $font_size - ($this->iscale * 6);$/;"	variable	line:897
+max_x	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                        $max_x = $font_size - ($this->iscale * 6);$/;"	variable	line:898
+min_x	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                        $min_x = $font_size \/ 5;$/;"	variable	line:900
+max_x	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                        $max_x = $font_size \/ 3;$/;"	variable	line:901
+min_x	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                        $min_x = $font_size - ($this->iscale * 12);$/;"	variable	line:903
+max_x	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                        $max_x = $font_size - ($this->iscale * 12);$/;"	variable	line:904
+min_x	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                        $min_x = $font_size;$/;"	variable	line:906
+max_x	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                        $max_x = $font_size + ($this->iscale * 3);$/;"	variable	line:907
+min_x	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                        $min_x = $font_size + ($this->iscale * 2);$/;"	variable	line:909
+max_x	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                        $max_x = $font_size + ($this->iscale * 5);$/;"	variable	line:910
+distortedCopy	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function distortedCopy()$/;"	function	line:931
+numpoles	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $numpoles = 3; \/\/ distortion factor$/;"	variable	line:933
+tmp	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $tmp     = -$this->frand() * 0.15 - 0.15;$/;"	variable	line:940
+bgCol	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $bgCol   = imagecolorat($this->tmpimg, 0, 0);$/;"	variable	line:944
+width2	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $width2  = $this->iscale * $this->image_width;$/;"	variable	line:945
+height2	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $height2 = $this->iscale * $this->image_height;$/;"	variable	line:946
+x	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                $x = $ix;$/;"	variable	line:953
+y	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                $y = $iy;$/;"	variable	line:954
+dx	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                    $dx = $ix - $px[$i];$/;"	variable	line:957
+dy	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                    $dy = $iy - $py[$i];$/;"	variable	line:958
+dy	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                    if ($dx == 0 && $dy == 0) continue;$/;"	variable	line:959
+r	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                    $r = sqrt($dx * $dx + $dy * $dy);$/;"	variable	line:961
+rscale	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                    $rscale = $amp[$i] * sin(3.14 * $r \/ $rad[$i]);$/;"	variable	line:964
+c	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                $c = $bgCol;$/;"	variable	line:969
+c	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                    $c = imagecolorat($this->tmpimg, $x, $y);$/;"	variable	line:974
+createCode	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function createCode()$/;"	function	line:991
+code	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->code = false;$/;"	variable	line:993
+code	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $this->code = $this->readCodeFromFile();$/;"	variable	line:996
+code	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $this->code = $this->generateCode($this->code_length);$/;"	variable	line:1000
+generateCode	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function generateCode($len)$/;"	function	line:1013
+code	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $code = '';$/;"	variable	line:1015
+cslen	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        for($i = 1, $cslen = strlen($this->charset); $i <= $len; ++$i) {$/;"	variable	line:1017
+readCodeFromFile	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function readCodeFromFile()$/;"	function	line:1030
+fp	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $fp = @fopen($this->wordlist_file, 'rb');$/;"	variable	line:1032
+fsize	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $fsize = filesize($this->wordlist_file);$/;"	variable	line:1035
+max	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $max = $fsize; \/\/ still pretty small but changes the range of seeking$/;"	variable	line:1039
+max	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $max = 128;$/;"	variable	line:1041
+data	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $data = fread($fp, 128); \/\/ read a random 128 bytes from file$/;"	variable	line:1045
+data	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $data = preg_replace("\/\\r?\\n\/", "\\n", $data);$/;"	variable	line:1047
+start	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $start = strpos($data, "\\n", rand(0, 100)) + 1; \/\/ random start position$/;"	variable	line:1049
+end	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $end   = strpos($data, "\\n", $start);           \/\/ find end of word$/;"	variable	line:1050
+output	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function output()$/;"	function	line:1061
+getAudibleCode	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function getAudibleCode($format = 'wav')$/;"	function	line:1099
+letters	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $letters = array();$/;"	variable	line:1101
+code	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $code    = $this->getCode();$/;"	variable	line:1102
+code	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $code = $this->getCode();$/;"	variable	line:1106
+setAudioPath	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function setAudioPath($audio_directory)$/;"	function	line:1126
+audio_path	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $this->audio_path = $audio_directory;$/;"	variable	line:1129
+saveData	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function saveData()$/;"	function	line:1142
+validate	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function validate()$/;"	function	line:1156
+code	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $code = '';$/;"	variable	line:1159
+code	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^              $code = $_SESSION['securimage_code_value'];$/;"	variable	line:1163
+code	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $code = $this->getCodeFromDatabase();$/;"	variable	line:1167
+code	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $code               = trim(strtolower($code));$/;"	variable	line:1170
+code_entered	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $code_entered       = trim(strtolower($this->code_entered));$/;"	variable	line:1171
+correct_code	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->correct_code = false;$/;"	variable	line:1172
+correct_code	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^              $this->correct_code = true;$/;"	variable	line:1176
+getCode	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function getCode()$/;"	function	line:1190
+checkCode	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function checkCode()$/;"	function	line:1207
+generateWAV	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function generateWAV($letters)$/;"	function	line:1220
+data_len	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $data_len    = 0;$/;"	variable	line:1222
+files	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $files       = array();$/;"	variable	line:1223
+out_data	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $out_data    = '';$/;"	variable	line:1224
+filename	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $filename = $this->audio_path . strtoupper($letter) . '.wav';$/;"	variable	line:1227
+fp	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $fp = fopen($filename, 'rb');$/;"	variable	line:1229
+file	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $file = array();$/;"	variable	line:1231
+data	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $data = fread($fp, filesize($filename)); \/\/ read file in$/;"	variable	line:1233
+header	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $header = substr($data, 0, 36);$/;"	variable	line:1235
+body	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $body   = substr($data, 44);$/;"	variable	line:1236
+data	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $data = unpack('NChunkID\/VChunkSize\/NFormat\/NSubChunk1ID\/VSubChunk1Size\/vAudioFormat\/vNumChannels\/VSampleRate\/VByteRate\/vBlockAlign\/vBitsPerSample', $header);$/;"	variable	line:1239
+info	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                $info         = substr($file['data'], $p + 4, 8);$/;"	variable	line:1251
+data	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                $data         = unpack('Vlength\/Vjunk', $info);$/;"	variable	line:1252
+data	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $data    = null;$/;"	variable	line:1258
+header	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $header  = null;$/;"	variable	line:1259
+body	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $body    = null;$/;"	variable	line:1260
+out_data	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $out_data = '';$/;"	variable	line:1267
+scrambleAudioData	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function scrambleAudioData(&$data, $format)$/;"	function	line:1301
+start	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $start = strpos($data, 'data') + 4; \/\/ look for "data" indicator$/;"	variable	line:1304
+start	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            if ($start === false) $start = 44;  \/\/ if not found assume 44 byte header$/;"	variable	line:1305
+start	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $start = 4; \/\/ 4 byte (32 bit) frame header$/;"	variable	line:1307
+datalen	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $datalen = strlen($data) - $start - 256; \/\/ leave last 256 bytes unchanged$/;"	variable	line:1311
+ch	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $ch = ord($data{$i});$/;"	variable	line:1314
+generateMP3	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function generateMP3($letters)$/;"	function	line:1328
+data_len	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $data_len    = 0;$/;"	variable	line:1330
+files	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $files       = array();$/;"	variable	line:1331
+out_data	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $out_data    = '';$/;"	variable	line:1332
+filename	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $filename = $this->audio_path . strtoupper($letter) . '.mp3';$/;"	variable	line:1335
+fp	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $fp   = fopen($filename, 'rb');$/;"	variable	line:1337
+data	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $data = fread($fp, filesize($filename)); \/\/ read file in$/;"	variable	line:1338
+frand	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function frand()$/;"	function	line:1356
+addSignature	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function addSignature()$/;"	function	line:1368
+bbox	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $bbox = imagettfbbox(10, 0, $this->signature_font, $this->image_signature);$/;"	variable	line:1374
+textlen	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $textlen = $bbox[2] - $bbox[0];$/;"	variable	line:1375
+x	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $x = $this->image_width - $textlen - 5;$/;"	variable	line:1376
+y	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $y = $this->image_height - 3;$/;"	variable	line:1377
+getIPHash	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function getIPHash()$/;"	function	line:1390
+openDatabase	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function openDatabase()$/;"	function	line:1402
+sqlite_handle	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->sqlite_handle = false;$/;"	variable	line:1404
+sqlite_handle	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $this->sqlite_handle = sqlite_open($this->sqlite_database, 0666, $error);$/;"	variable	line:1407
+res	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                $res = sqlite_query($this->sqlite_handle, "PRAGMA table_info(codes)");$/;"	variable	line:1410
+saveCodeToDatabase	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function saveCodeToDatabase()$/;"	function	line:1429
+success	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $success = false;$/;"	variable	line:1431
+ip	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $ip = $this->getIPHash();$/;"	variable	line:1436
+time	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $time = time();$/;"	variable	line:1437
+code	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $code = $_SESSION['securimage_code_value']; \/\/ hash code for security - if cookies are disabled the session still exists at this point$/;"	variable	line:1438
+success	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $success = sqlite_query($this->sqlite_handle, "INSERT OR REPLACE INTO codes(iphash, code, created) VALUES('$ip', '$code', $time)");$/;"	variable	line:1439
+getCodeFromDatabase	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function getCodeFromDatabase()$/;"	function	line:1452
+code	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    $code = '';$/;"	variable	line:1454
+ip	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $ip = $this->getIPHash();$/;"	variable	line:1457
+res	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $res = sqlite_query($this->sqlite_handle, "SELECT * FROM codes WHERE iphash = '$ip'");$/;"	variable	line:1459
+res	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $res = sqlite_fetch_array($res);$/;"	variable	line:1461
+code	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                $code = $res['code'];$/;"	variable	line:1464
+clearCodeFromDatabase	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function clearCodeFromDatabase()$/;"	function	line:1478
+ip	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $ip = $this->getIPHash();$/;"	variable	line:1481
+purgeOldCodesFromDatabase	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function purgeOldCodesFromDatabase()$/;"	function	line:1493
+now	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $now   = time();$/;"	variable	line:1496
+limit	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $limit = (!is_numeric($this->expiry_time) || $this->expiry_time < 1) ? 86400 : $this->expiry_time;$/;"	variable	line:1497
+isCodeExpired	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function isCodeExpired($creation_time)$/;"	function	line:1511
+expired	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $expired = true;$/;"	variable	line:1513
+expired	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $expired = false;$/;"	variable	line:1516
+expired	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $expired = false;$/;"	variable	line:1518
+Securimage	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^} \/* class Securimage *\/$/;"	class	line:1524
+Securimage_Color	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^class Securimage_Color {$/;"	class	line:1535
+r	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $r;$/;"	variable	line:1541
+g	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $g;$/;"	variable	line:1547
+b	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    var $b;$/;"	variable	line:1553
+color	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^     * $color = new Securimage_Color(0x4A, 0x20, 0x3C);$/;"	variable	line:1559
+Securimage_Color	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function Securimage_Color($red, $green = null, $blue = null)$/;"	function	line:1565
+green	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^    function Securimage_Color($red, $green = null, $blue = null)$/;"	variable	line:1565
+blue	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        if ($green == null && $blue == null && preg_match('\/^#[a-f0-9]{3,6}$\/i', $red)) {$/;"	variable	line:1567
+col	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $col = substr($red, 1);$/;"	variable	line:1568
+red	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                $red   = str_repeat(substr($col, 0, 1), 2);$/;"	variable	line:1570
+green	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                $green = str_repeat(substr($col, 1, 1), 2);$/;"	variable	line:1571
+blue	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                $blue  = str_repeat(substr($col, 2, 1), 2);$/;"	variable	line:1572
+red	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                $red   = substr($col, 0, 2);$/;"	variable	line:1574
+green	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                $green = substr($col, 2, 2);$/;"	variable	line:1575
+blue	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^                $blue  = substr($col, 4, 2); $/;"	variable	line:1576
+red	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $red   = hexdec($red);$/;"	variable	line:1579
+green	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $green = hexdec($green);$/;"	variable	line:1580
+blue	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            $blue  = hexdec($blue);$/;"	variable	line:1581
+red	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            if ($red < 0) $red       = 0;$/;"	variable	line:1583
+red	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            if ($red > 255) $red     = 255;$/;"	variable	line:1584
+green	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            if ($green < 0) $green   = 0;$/;"	variable	line:1585
+green	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            if ($green > 255) $green = 255;$/;"	variable	line:1586
+blue	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            if ($blue < 0) $blue     = 0;$/;"	variable	line:1587
+blue	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^            if ($blue > 255) $blue   = 255;$/;"	variable	line:1588
+r	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->r = $red;$/;"	variable	line:1591
+g	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->g = $green;$/;"	variable	line:1592
+b	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage.php	/^        $this->b = $blue;$/;"	variable	line:1593
+for	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage_play.php	/^ * Project:     Securimage: A PHP class for creating and managing form CAPTCHA images<br \/>$/;"	class	line:4
+img	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage_play.php	/^$img    = new Securimage();$/;"	variable	line:39
+for	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage_show.php	/^ * Project:     Securimage: A PHP class for creating and managing form CAPTCHA images<br \/>$/;"	class	line:4
+img	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage_show.php	/^$img = new securimage();$/;"	variable	line:39
+for	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage_show_example.php	/^ * Project:     Securimage: A PHP class for creating and managing form CAPTCHA images<br \/>$/;"	class	line:4
+img	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage_show_example.php	/^$img = new securimage();$/;"	variable	line:39
+for	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage_show_example2.php	/^ * Project:     Securimage: A PHP class for creating and managing form CAPTCHA images<br \/>$/;"	class	line:4
+img	/Users/fabianmundt/Matrix/Inventionate/AKGS Anmeldung/securimage/securimage_show_example2.php	/^$img = new securimage();$/;"	variable	line:39
