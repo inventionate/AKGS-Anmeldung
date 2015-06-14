@@ -4,7 +4,7 @@
 <html lang="de">
 <head>
 	<meta charset="utf-8" />
-	<title>Anmeldung AK Grundschule 2015 – Anmeldung eingegangen</title>
+	<title>Anmeldung AK Grundschule 2015 – Anmeldewunsch eingegangen</title>
 
 	<!-- Uni-Form -->
 	<link rel="stylesheet" href="css/uni-form.css" />
@@ -79,12 +79,12 @@
             echo '
 			<header>
 				<div class="header">
-				  <h2>Ihre Anmeldung war erfolgreich</h2>
+				  <h2>Ihr Anmeldewunsch ist erfolgreich eingegangen</h2>
 				</div>
 			</header>
 			<p class="uniForm">
 			';
-            echo 'Vielen Dank für Ihre Anmeldung. Sie erhalten in Kürze eine E-Mail. <img src="img/ok.png" title="Erfolgreich" alt="OK" />';
+            echo 'Vielen Dank für Ihren Anmeldewunsch. Sie erhalten in Kürze eine E-Mail. <img src="img/ok.png" title="Erfolgreich" alt="OK" />';
             // Dateistream schließen
             fclose($dz);
             // Datei mit allen Anmeldungen
@@ -94,7 +94,7 @@
                 echo '
 						<header>
 						<div class="header">
-						  <h2>Ihre Anmeldung ist fehlgeschlagen</h2>
+						  <h2>Ihr Anmeldewunsch ist fehlgeschlagen</h2>
 						</div>
 						</header>
 
@@ -151,7 +151,6 @@
 				<p>$anrede $titel $empfaenger, <br /> <br />
 				vielen Dank für Ihr Interesse am Arbeitskreis Grundschule. <br />
 				Wir behalten Sie in unserem Verteiler. <br />
-
 				<br />
 				Viele Grüße <br />
 				AK Grundschule</p>
@@ -186,7 +185,7 @@
             // E-MAIL AN DEN ADMINISTRATOR
             $names = fopen('anmeldungen.csv', 'r');
             if (!$names) {
-                echo '<p>Datei konnte nicht zum Lesen geöffnet werden. Wenden Sie sich bitte an H. Gasteiger.</p>';
+                echo '<p>Datei konnte nicht zum Lesen geöffnet werden. Wenden Sie sich bitte an gdm@ph-karlsruhe.de</p>';
                 exit;
             }
             $n = 0;
@@ -206,7 +205,7 @@
             $mailAdmin->CharSet = 'utf-8';
             $mailAdmin->SetLanguage('de');
             $mailAdmin->isHTML(true);
-            $mailAdmin->AddAddress('f.mundt@gmx.net', 'Hedwig Gasteiger');
+            $mailAdmin->AddAddress('f.mundt@gmx.net', 'Fabian Mundt');
             $mailAdmin->Subject = 'Neue Anmeldung Herbsttagung AK Grundschule 2015';
             $mailAdmin->Body = "
 			<html>
@@ -240,7 +239,7 @@
 					<h2>Weiterführende Informationen</h2>
 				</div>
 			</header>
-			<p>Sie erhalten eine Bestätigung der Anmeldung als Email. Achtung: Die Versendung kann bis zu einer halben Stunde dauern.</p>
+			<p>Sie erhalten eine Bestätigung per E-Mail. Achtung: Die Versendung kann bis zu einer halben Stunde dauern.</p>
 		</section>
 
 		<footer>
